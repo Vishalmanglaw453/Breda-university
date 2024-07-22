@@ -6,7 +6,6 @@ import playstore from "../assets/images/svg/playstore.svg";
 
 const FooterSection = () => {
   return (
-    <>
       <section className=" pt-[120px] max-lg:pt-[50px]">
         <div className=" container mx-auto pb-[67px] max-lg:pb-[40px]">
           <div className="flex -mx-3 flex-row flex-wrap pb-8 md:pb-[74px]">
@@ -19,7 +18,7 @@ const FooterSection = () => {
                     alt="logo"
                   />
                 </div>
-                <p className=" max-w-[246px] text-xs font-Plus-Jakarta font-medium text-light-blue leading-[18px] py-[21.5px]">
+                <p className=" max-w-[246px] text-xs font-plus_jakarta font-medium text-light-blue leading-[18px] py-[21.5px]">
                   JobBox is the heart of the design community and the best
                   resource to discover and connect with designers and jobs
                   worldwide.
@@ -51,13 +50,13 @@ const FooterSection = () => {
               <div className=" w-9/12 max-lg:w-full px-3  flex justify-between !flex-wrap">
                 <div className="  max-xl:px-[30px] max-lg:pr-[40px] max-lg:pl-0 pt-[19px]  ">
                   <ul className=" flex flex-col">
-                    <li className=" text-base pb-[6px] font-Plus-Jakarta font-bold text-blue leading-[26px]">
+                    <li className=" text-base pb-[6px] font-plus_jakarta font-bold text-blue leading-[26px]">
                       Resources
                     </li>
                     <li>
                       <a
                         href="#"
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
+                        className=" text-sm leading-[28px] font-plus_jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         About{" "}
                       </a>
@@ -65,7 +64,7 @@ const FooterSection = () => {
                     <li>
                       <a
                         href="#"
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
+                        className=" text-sm leading-[28px] font-plus_jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Leadership{" "}
                       </a>
@@ -73,7 +72,7 @@ const FooterSection = () => {
                     <li>
                       <a
                         href="#"
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
+                        className=" text-sm leading-[28px] font-plus_jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Press News{" "}
                       </a>
@@ -81,7 +80,7 @@ const FooterSection = () => {
                     <li>
                       <a
                         href="#"
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
+                        className=" text-sm leading-[28px] font-plus_jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Careers Team{" "}
                       </a>
@@ -89,7 +88,7 @@ const FooterSection = () => {
                     <li>
                       <a
                         href="#"
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
+                        className=" text-sm leading-[28px] font-plus_jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Contact Us{" "}
                       </a>
@@ -98,13 +97,13 @@ const FooterSection = () => {
                 </div>
                 <div className="  max-xl:px-[30px] max-lg:pr-[40px] max-lg:pl-0 pt-[19px]  ">
                   <ul className=" flex flex-col">
-                    <li className=" text-base pb-[6px] font-Plus-Jakarta font-bold text-blue leading-[26px]">
+                    <li className=" text-base pb-[6px] font-plus_jakarta font-bold text-blue leading-[26px]">
                       Community
                     </li>
                     <li>
                       <a
                         href="#"
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
+                        className=" text-sm leading-[28px] font-plus_jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Learners{" "}
                       </a>
@@ -112,7 +111,7 @@ const FooterSection = () => {
                     <li>
                       <a
                         href="#"
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
+                        className=" text-sm leading-[28px] font-plus_jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Partener{" "}
                       </a>
@@ -120,7 +119,7 @@ const FooterSection = () => {
                     <li>
                       <a
                         href="#"
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
+                        className=" text-sm leading-[28px] font-plus_jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         {" "}
                         Developers{" "}
@@ -129,7 +128,7 @@ const FooterSection = () => {
                     <li>
                       <a
                         href="#"
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
+                        className=" text-sm leading-[28px] font-plus_jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Transactions{" "}
                       </a>
@@ -137,7 +136,7 @@ const FooterSection = () => {
                     <li>
                       <a
                         href="#"
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
+                        className=" text-sm leading-[28px] font-plus_jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Blog{" "}
                       </a>
@@ -146,13 +145,13 @@ const FooterSection = () => {
                 </div>
                 <div className="  max-xl:px-[30px] max-lg:pr-[40px] max-lg:pl-0 pt-[19px]   ">
                   <ul className=" flex flex-col">
-                    <li className=" text-base pb-[6px] font-Plus-Jakarta font-bold text-blue leading-[26px]">
+                    <li className=" text-base pb-[6px] font-plus_jakarta font-bold text-blue leading-[26px]">
                       Quick links
                     </li>
                     <li>
                       <a
                         href="#"
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
+                        className=" text-sm leading-[28px] font-plus_jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Home{" "}
                       </a>
@@ -160,7 +159,7 @@ const FooterSection = () => {
                     <li>
                       <a
                         href="#"
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
+                        className=" text-sm leading-[28px] font-plus_jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Professional{" "}
                       </a>
@@ -168,7 +167,7 @@ const FooterSection = () => {
                     <li>
                       <a
                         href="#"
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
+                        className=" text-sm leading-[28px] font-plus_jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Education{" "}
                       </a>
@@ -176,7 +175,7 @@ const FooterSection = () => {
                     <li>
                       <a
                         href="#"
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
+                        className=" text-sm leading-[28px] font-plus_jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Courses{" "}
                       </a>
@@ -184,7 +183,7 @@ const FooterSection = () => {
                     <li>
                       <a
                         href="#"
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
+                        className=" text-sm leading-[28px] font-plus_jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Admissions{" "}
                       </a>
@@ -193,13 +192,13 @@ const FooterSection = () => {
                 </div>
                 <div className="  max-xl:px-[30px] max-lg:pr-[40px] max-lg:pl-0 pt-[19px]  ">
                   <ul className=" flex flex-col">
-                    <li className=" text-base pb-[6px] font-Plus-Jakarta font-bold text-blue leading-[26px]">
+                    <li className=" text-base pb-[6px] font-plus_jakarta font-bold text-blue leading-[26px]">
                       Quick links
                     </li>
                     <li>
                       <a
                         href="#"
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
+                        className=" text-sm leading-[28px] font-plus_jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Home{" "}
                       </a>
@@ -207,7 +206,7 @@ const FooterSection = () => {
                     <li>
                       <a
                         href="#"
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
+                        className=" text-sm leading-[28px] font-plus_jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Professional{" "}
                       </a>
@@ -215,7 +214,7 @@ const FooterSection = () => {
                     <li>
                       <a
                         href="#"
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
+                        className=" text-sm leading-[28px] font-plus_jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Education{" "}
                       </a>
@@ -223,7 +222,7 @@ const FooterSection = () => {
                     <li>
                       <a
                         href="#"
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
+                        className=" text-sm leading-[28px] font-plus_jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Courses{" "}
                       </a>
@@ -231,7 +230,7 @@ const FooterSection = () => {
                     <li>
                       <a
                         href="#"
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
+                        className=" text-sm leading-[28px] font-plus_jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Admissions{" "}
                       </a>
@@ -240,13 +239,13 @@ const FooterSection = () => {
                 </div>
                 <div className="  max-xl:px-[30px] max-lg:pr-[40px] max-lg:pl-0 pt-[19px]  ">
                   <ul className=" flex flex-col">
-                    <li className=" text-base pb-[6px] font-Plus-Jakarta font-bold text-blue leading-[26px]">
+                    <li className=" text-base pb-[6px] font-plus_jakarta font-bold text-blue leading-[26px]">
                       More
                     </li>
                     <li>
                       <a
                         href="#"
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
+                        className=" text-sm leading-[28px] font-plus_jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Press{" "}
                       </a>
@@ -254,7 +253,7 @@ const FooterSection = () => {
                     <li>
                       <a
                         href="#"
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
+                        className=" text-sm leading-[28px] font-plus_jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Investors{" "}
                       </a>
@@ -262,7 +261,7 @@ const FooterSection = () => {
                     <li>
                       <a
                         href="#"
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
+                        className=" text-sm leading-[28px] font-plus_jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Terms{" "}
                       </a>
@@ -270,7 +269,7 @@ const FooterSection = () => {
                     <li>
                       <a
                         href="#"
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
+                        className=" text-sm leading-[28px] font-plus_jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Privacy Help{" "}
                       </a>
@@ -278,7 +277,7 @@ const FooterSection = () => {
                     <li>
                       <a
                         href="#"
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
+                        className=" text-sm leading-[28px] font-plus_jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Contact{" "}
                       </a>
@@ -287,10 +286,10 @@ const FooterSection = () => {
                 </div>
                 <div className="   max-xl:px-[30px] max-lg:pr-[40px] max-lg:pl-0 pt-[19px] ">
                   <div className=" flex flex-col">
-                    <p className=" text-base font-Plus-Jakarta font-bold leading-[26px]">
+                    <p className=" text-base font-plus_jakarta font-bold leading-[26px]">
                       Download App
                     </p>
-                    <p className=" max-w-[238px] text-xs font-Plus-Jakarta font-medium text-light-blue leading-[18px] pt-3 pb-[18px]">
+                    <p className=" max-w-[238px] text-xs font-plus_jakarta font-medium text-light-blue leading-[18px] pt-3 pb-[18px]">
                       Download our Apps and get extra 15% Discount on your first
                       Order…!
                     </p>
@@ -316,24 +315,23 @@ const FooterSection = () => {
           </div>
           <div className=" w-full bg-fade-blue h-[1px]"></div>
           <div className=" flex  justify-between pt-[31px]   max-md:flex-col sm:flex-nowrap ">
-            <p className="text-xs leading-[18px] font-Plus-Jakarta font-medium text-light-blue">
+            <p className="text-xs leading-[18px] font-plus_jakarta font-medium text-light-blue">
               Copyright © 2024 JobBox all right reserved
             </p>
             <div className="flex items-center gap-4 md:gap-7 flex-wrap mt-4 sm:mt-0">
-              <p className="text-xs leading-[18px] font-Plus-Jakarta font-medium text-light-blue">
+              <p className="text-xs leading-[18px] font-plus_jakarta font-medium text-light-blue">
                 Privacy Policy
               </p>
-              <p className="text-xs leading-[18px] font-Plus-Jakarta font-medium text-light-blue">
+              <p className="text-xs leading-[18px] font-plus_jakarta font-medium text-light-blue">
                 Terms & Conditions
               </p>
-              <p className="text-xs leading-[18px] font-Plus-Jakarta font-medium text-light-blue">
+              <p className="text-xs leading-[18px] font-plus_jakarta font-medium text-light-blue">
                 Security
               </p>
             </div>
           </div>
         </div>
       </section>
-    </>
   );
 };
 

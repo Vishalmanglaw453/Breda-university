@@ -11,7 +11,7 @@ const Commoncheckbox = () => {
     <>
       <div
         className={`${
-          check ? " bg-[#3E8600] border-transparent" : " bg-transparent "
+          check ? " bg-green border-transparent" : " bg-transparent "
         } w-[24px] h-[24px] cursor-pointer flex justify-center items-center border-[1.5px] border-[#E0E6F6]  rounded-[7px] `}
         onClick={handleclick}
       >

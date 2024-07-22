@@ -28,7 +28,7 @@ const Backtotop = () => {
     <>
       {showButton && (
         <button
-          className="fixed w-[48px] h-[48px] cursor-pointer  hover:shadow-[-3px_3px_37px_8px_rgba(62,134,0,1)] duration-300 ease-linear flex  justify-center items-center bottom-10 right-10  bg-green text-white p-3 rounded-full shadow-md hover:bg-blue-700 transition duration-300"
+          className="fixed size-12 cursor-pointer hover:shadow-[-3px_3px_37px_8px_rgba(62,134,0,1)] duration-300 ease-linear flex  justify-center items-center bottom-10 right-10  bg-green text-white p-3 rounded-full shadow-md hover:bg-blue-700 transition duration-300"
           onClick={scrollToTop}
         >
           <Backtotoparrow />

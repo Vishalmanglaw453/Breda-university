@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Logo from "../assets/images/png/Logo.webp";
-import Oval from "../assets/images/png/Oval.webp";
+import Logo from "../assets/images/webp/Logo.webp";
+import Oval from "../assets/images/webp/Oval.webp";
 import Icons from "../common/Icons";
 
 const Navbar = () => {
@@ -37,7 +37,7 @@ const Navbar = () => {
               <a
                 href="#home"
                 onClick={handleNavLinkClick}
-                className="text-sm leading-[17.6px] font-Plus-Jakarta text-blue font-medium relative after:absolute after:w-0 after:left-0 after:bottom-[-10px] after:h-[2px] after:bg-green hover:after:w-full after:duration-300 after:ease-linear hover:text-green duration-300"
+                className="text-sm leading-[17.6px] font-plus_jakarta text-blue font-medium relative after:absolute after:w-0 after:left-0 after:bottom-[-10px] after:h-[2px] after:bg-green hover:after:w-full after:duration-300 after:ease-linear hover:text-green duration-300"
               >
                 Home
               </a>
@@ -46,7 +46,7 @@ const Navbar = () => {
               <a
                 href="#Studiekeuze"
                 onClick={handleNavLinkClick}
-                className="text-sm leading-[17.6px] font-Plus-Jakarta text-blue font-medium relative after:absolute after:w-0 after:left-0 after:bottom-[-10px] after:h-[2px] after:bg-green hover:after:w-full after:duration-300 after:ease-linear hover:text-green duration-300"
+                className="text-sm leading-[17.6px] font-plus_jakarta text-blue font-medium relative after:absolute after:w-0 after:left-0 after:bottom-[-10px] after:h-[2px] after:bg-green hover:after:w-full after:duration-300 after:ease-linear hover:text-green duration-300"
               >
                 Studiekeuze
               </a>
@@ -55,7 +55,7 @@ const Navbar = () => {
               <a
                 href="#"
                 onClick={handleNavLinkClick}
-                className="text-sm leading-[17.6px] font-Plus-Jakarta text-blue font-medium relative after:absolute after:w-0 after:left-0 after:bottom-[-10px] after:h-[2px] after:bg-green hover:after:w-full after:duration-300 after:ease-linear hover:text-green duration-300"
+                className="text-sm leading-[17.6px] font-plus_jakarta text-blue font-medium relative after:absolute after:w-0 after:left-0 after:bottom-[-10px] after:h-[2px] after:bg-green hover:after:w-full after:duration-300 after:ease-linear hover:text-green duration-300"
               >
                 Samenwerken
               </a>
@@ -64,7 +64,7 @@ const Navbar = () => {
               <a
                 href="#"
                 onClick={handleNavLinkClick}
-                className="text-sm leading-[17.6px] font-Plus-Jakarta text-blue font-medium relative after:absolute after:w-0 after:left-0 after:bottom-[-10px] after:h-[2px] after:bg-green hover:after:w-full after:duration-300 after:ease-linear hover:text-green duration-300"
+                className="text-sm leading-[17.6px] font-plus_jakarta text-blue font-medium relative after:absolute after:w-0 after:left-0 after:bottom-[-10px] after:h-[2px] after:bg-green hover:after:w-full after:duration-300 after:ease-linear hover:text-green duration-300"
               >
                 Onderzoek
               </a>
@@ -73,7 +73,7 @@ const Navbar = () => {
               <a
                 href="#"
                 onClick={handleNavLinkClick}
-                className="text-sm leading-[17.6px] font-Plus-Jakarta text-blue font-medium relative after:absolute after:w-0 after:left-0 after:bottom-[-10px] after:h-[2px] after:bg-green hover:after:w-full after:duration-300 after:ease-linear hover:text-green duration-300"
+                className="text-sm leading-[17.6px] font-plus_jakarta text-blue font-medium relative after:absolute after:w-0 after:left-0 after:bottom-[-10px] after:h-[2px] after:bg-green hover:after:w-full after:duration-300 after:ease-linear hover:text-green duration-300"
               >
                 Meer BUas
               </a>
@@ -85,17 +85,17 @@ const Navbar = () => {
               <img src={Oval} alt="Oval" className=" max-w-[34.5px] w-full" />
               <div className=" hidden sm:block">
                 <div className=" flex flex-col ">
-                  <p className=" text-xsm opacity-70 font-bold font-Plus-Jakarta text-blue leading-[17.4px]">
+                  <p className=" text-text-sm opacity-70 font-bold font-plus_jakarta text-blue leading-[17.4px]">
                     Willem Beekhuis
                   </p>
-                  <p className=" text-light-blue text-xxs font-medium font-Plus-Jakarta leading-[17.7px]">
+                  <p className=" text-light-blue text-xs font-medium font-plus_jakarta leading-[17.7px]">
                     Student
                   </p>
                 </div>
               </div>
               <div
                 onClick={handleMenuToggle}
-                className={`${isMenuOpen ? "menu" : ""} z-50 lg:hidden`}
+                className={`${isMenuOpen && "menu"} z-50 lg:hidden`}
               >
                 <span className="bar h-[5px] rounded-[6px] block bg-blue w-[30px] duration-300"></span>
                 <span className="bar h-[5px] rounded-[6px] block  bg-blue w-[30px] my-[6px]"></span>

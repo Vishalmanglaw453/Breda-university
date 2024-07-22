@@ -1,9 +1,9 @@
 import React from "react";
 import { useState } from "react";
 import Icons from "../common/Icons";
-import SearchIcon from "../assets/images/png/SearchIcon.webp";
-import TheOffice from "../assets/images/png/UndrawInTheOffice.webp";
-import Sketching from "../assets/images/png/UndrawLearningSketching.webp";
+import SearchIcon from "../assets/images/webp/SearchIcon.webp";
+import TheOffice from "../assets/images/webp/UndrawInTheOffice.webp";
+import Sketching from "../assets/images/webp/UndrawLearningSketching.webp";
 const Herosection = () => {
   const [activeDropdown, setActiveDropdown] = useState("");
   const [selectedIndustry, setSelectedIndustry] = useState("Industrie");
@@ -25,7 +25,7 @@ const Herosection = () => {
 
   return (
     <section>
-      <div id="home" className="container mx-auto pt-[29px] ">
+      <div id="home" className="container mx-auto pt-[29px]">
         <div className="bg-beschikbaar relative z-0 rounded-[16px] w-full px-4 min-h-[193px] pb-[44px] md:pb-[67px]">
           <img
             src={TheOffice}
@@ -37,10 +37,10 @@ const Herosection = () => {
             alt="Sketching"
             className="absolute bottom-0 z-0 hidden xl:block right-2 2xl:right-3 opacity-65 max-w-[180px] 2xl:max-w-[213px]"
           />
-          <h1 className="text-2xl leading-[30.2px] md:text-3xl md:leading-[35.2px] font-Plus-Jakarta text-orange text-center font-bold pt-[33px] md:pt-[25px]">
+          <h1 className="text-2xl leading-[30.2px] md:text-3xl md:leading-[35.2px] font-plus_jakarta text-orange text-center font-bold pt-[33px] md:pt-[25px]">
             312 vacatures <span className="text-blue">beschikbaar</span>
           </h1>
-          <p className="max-w-[929px] mx-auto text-sm font-Plus-Jakarta text-center font-medium leading-[22px] pt-[10px] pb-[53px] md:pb-[23px] text-light-blue">
+          <p className="max-w-[929px] mx-auto text-sm font-plus_jakarta text-center font-medium leading-[22px] pt-[10px] pb-[53px] md:pb-[23px] text-light-blue">
             Ben je op zoek naar een uitdagende stage? Bij BUas bieden we
             inspirerende en leerzame stageplekken aan. Of je nu een meewerkstage
             of een onderzoeksstage zoekt, wij hebben iets voor jou! Onze
@@ -52,7 +52,7 @@ const Herosection = () => {
             <div className="md:pe-[37.5px] w-full border-b md:border-b-0  max-w-[576px] lg:max-w-[147px] md:pb-0 pb-[15px] md:border-r-[1.4px] border-fade-blue2">
               <div className="relative">
                 <button
-                  className="flex items-center gap-[18px] w-full justify-between text-sm font-Plus-Jakarta font-medium leading-[22px] text-gray2"
+                  className="flex items-center gap-[18px] w-full justify-between text-sm font-plus_jakarta font-medium leading-[22px] text-darkgray"
                   onClick={() => toggleDropdown("industry")}
                 >
                   <span className="flex items-center gap-[7px]">
@@ -65,7 +65,7 @@ const Herosection = () => {
                   <ul className="absolute bg-white shadow-md py-2 z-10">
                     <li>
                       <a
-                        className="block px-4 py-1 text-sm font-Plus-Jakarta font-medium leading-[22px] text-gray2"
+                        className="block px-4 py-1 text-sm font-plus_jakarta font-medium leading-[22px] text-darkgray"
                         href="#"
                         onClick={() => handleIndustryChange("Option1")}
                       >
@@ -74,7 +74,7 @@ const Herosection = () => {
                     </li>
                     <li>
                       <a
-                        className="block px-4 py-1 text-sm font-Plus-Jakarta font-medium leading-[22px] text-gray2"
+                        className="block px-4 py-1 text-sm font-plus_jakarta font-medium leading-[22px] text-darkgray"
                         href="#"
                         onClick={() => handleIndustryChange("Option2")}
                       >
@@ -88,7 +88,7 @@ const Herosection = () => {
             <div className="md:pe-[28.5px] max-w-[576px] lg:max-w-[170px] w-full justify-between pt-[28px] pb-[14px] md:pb-0 md:pt-0 md:ps-[19px] border-b md:border-b-0 md:border-r-[1.4px] border-fade-blue2">
               <div className="relative">
                 <button
-                  className="flex w-full justify-between items-center gap-[28.5px] text-sm font-Plus-Jakarta font-medium leading-[22px] text-gray2"
+                  className="flex w-full justify-between items-center gap-[28.5px] text-sm font-plus_jakarta font-medium leading-[22px] text-darkgray"
                   onClick={() => toggleDropdown("location")}
                 >
                   <span className="flex items-center gap-[7px]">
@@ -101,7 +101,7 @@ const Herosection = () => {
                   <ul className="absolute bg-white shadow-md py-2 z-10">
                     <li>
                       <a
-                        className="block px-4 py-1 text-sm font-Plus-Jakarta font-medium leading-[22px] text-gray2"
+                        className="block px-4 py-1 text-sm font-plus_jakarta font-medium leading-[22px] text-darkgray"
                         href="#"
                         onClick={() => handleLocationChange("New York")}
                       >
@@ -110,7 +110,7 @@ const Herosection = () => {
                     </li>
                     <li>
                       <a
-                        className="block px-4 py-1 text-sm font-Plus-Jakarta font-medium leading-[22px] text-gray2"
+                        className="block px-4 py-1 text-sm font-plus_jakarta font-medium leading-[22px] text-darkgray"
                         href="#"
                         onClick={() => handleLocationChange("USA")}
                       >
@@ -121,16 +121,16 @@ const Herosection = () => {
                 )}
               </div>
             </div>
-            <div className="flex items-center max-w-[576px] pt-7 pb-[26px] md:pt-0 md:pb-0 gap-[10px] md:ps-5 w-full md:pe-4">
+            <div className="flex items-center  max-w-[576px] pt-7 pb-[26px] md:pt-0 md:pb-0 gap-[10px] md:ps-5 w-full md:pe-4">
               <Icons icon="Zoekwoorden" />
               <input
                 type="text"
                 placeholder="Zoekwoorden..."
                 required
-                className="text-sm font-Plus-Jakarta leading-[22px] text-gray2 font-medium w-full outline-none border-0 placeholder:text-gray2"
+                className="text-sm font-plus_jakarta leading-[22px] text-darkgray font-medium w-full outline-none border-0 placeholder:text-darkgray"
               />
             </div>
-            <button className="flex items-center duration-300 ease-linear  hover:shadow-[-3px_3px_37px_8px_rgba(62,134,0,1)] justify-start sm:justify-center w-full px-5 gap-[11px] bg-green min-h-[53px] max-w-[576px] md:max-w-[122px] rounded-[8px] text-white text-sm leading-[22px] font-Plus-Jakarta font-medium">
+            <button className="flex items-center duration-300 ease-linear  hover:shadow-[-3px_3px_37px_8px_rgba(62,134,0,1)] justify-start sm:justify-center w-full px-5 gap-[11px] bg-green min-h-[53px] max-w-[576px] md:max-w-[122px] rounded-[8px] text-white text-sm leading-[22px] font-plus_jakarta font-medium">
               <img src={SearchIcon} alt="SearchIcon" />
               Zoeken
             </button>

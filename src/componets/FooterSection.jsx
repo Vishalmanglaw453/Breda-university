@@ -7,45 +7,49 @@ import playstore from "../assets/images/svg/playstore.svg";
 const FooterSection = () => {
   return (
     <>
-      <section className=" pt-[155px] max-lg:pt-[50px]">
+      <section className=" pt-[120px] max-lg:pt-[50px]">
         <div className=" container mx-auto pb-[67px] max-lg:pb-[40px]">
-          <div className="flex -mx-3 flex-wrap pb-8 md:pb-[74px]">
-            <div className="w-full lg:w-[50%] px-3">
-              <div className=" flex flex-wrap">
-                <div className=" w-full sm:w-[50%] md:w-[33.33%]">
-                  <div className="flex items-center gap-1">
-                    <img className=" cursor-pointer" src={footerlogo} alt="logo" />
-                  </div>
-                  <p className=" max-w-[246px] text-xs font-Plus-Jakarta font-medium text-light-blue leading-[18px] py-[21.5px]">
-                    JobBox is the heart of the design community and the best
-                    resource to discover and connect with designers and jobs
-                    worldwide.
-                  </p>
-                  <div className=" flex items-center gap-[11px]">
-                    <a
-                      href="https://www.facebook.com/"
-                      target="blank"
-                      className=" bg-green hover:scale-[1.1] duration-300 ease-linear group rounded-full h-[30px] w-[30px] flex items-center justify-center"
-                    >
-                      <Icons icon="Facebook" />
-                    </a>
-                    <a
-                      href="https://twitter.com/?lang=en"
-                      target="blank"
-                      className=" bg-green hover:scale-[1.1] duration-300 ease-linear group rounded-full h-[30px] w-[30px] flex items-center justify-center"
-                    >
-                      <Icons icon="Twitter" />
-                    </a>
-                    <a
-                      href="https://in.indeed.com/"
-                      target="blank"
-                      className=" bg-green hover:scale-[1.1] duration-300 ease-linear group rounded-full h-[30px] w-[30px] flex items-center justify-center"
-                    >
-                      <Icons icon="LinkedIn" />
-                    </a>
-                  </div>
+          <div className="flex -mx-3 flex-row flex-wrap pb-8 md:pb-[74px]">
+           
+              <div className=" w-3/12 pt-[19px] max-lg:w-full px-3 ">
+                <div className="flex items-center gap-1">
+                  <img
+                    className=" cursor-pointer"
+                    src={footerlogo}
+                    alt="logo"
+                  />
                 </div>
-                <div className=" w-full sm:w-[50%] mt-5 sm:mt-0 md:w-[33.33%] flex justify-start sm:justify-center lg:justify-end">
+                <p className=" max-w-[246px] text-xs font-Plus-Jakarta font-medium text-light-blue leading-[18px] py-[21.5px]">
+                  JobBox is the heart of the design community and the best
+                  resource to discover and connect with designers and jobs
+                  worldwide.
+                </p>
+                <div className=" flex items-center gap-[11px]">
+                  <a
+                    href="https://www.facebook.com/"
+                    target="blank"
+                    className=" bg-green hover:scale-[1.1] duration-300 ease-linear group rounded-full h-[30px] w-[30px] flex items-center justify-center"
+                  >
+                    <Icons icon="Facebook" />
+                  </a>
+                  <a
+                    href="https://twitter.com/?lang=en"
+                    target="blank"
+                    className=" bg-green hover:scale-[1.1] duration-300 ease-linear group rounded-full h-[30px] w-[30px] flex items-center justify-center"
+                  >
+                    <Icons icon="Twitter" />
+                  </a>
+                  <a
+                    href="https://in.indeed.com/"
+                    target="blank"
+                    className=" bg-green hover:scale-[1.1] duration-300 ease-linear group rounded-full h-[30px] w-[30px] flex items-center justify-center"
+                  >
+                    <Icons icon="LinkedIn" />
+                  </a>
+                </div>
+              </div>
+              <div className=" w-9/12 max-lg:w-full px-3  flex justify-between !flex-wrap">
+                <div className="  max-xl:px-[30px] max-lg:pr-[40px] max-lg:pl-0 pt-[19px]  ">
                   <ul className=" flex flex-col">
                     <li className=" text-base pb-[6px] font-Plus-Jakarta font-bold text-blue leading-[26px]">
                       Resources
@@ -92,7 +96,7 @@ const FooterSection = () => {
                     </li>
                   </ul>
                 </div>
-                <div className=" w-full sm:w-[50%] mt-5 md:mt-0 md:w-[33.33%] flex md:justify-center justify-start">
+                <div className="  max-xl:px-[30px] max-lg:pr-[40px] max-lg:pl-0 pt-[19px]  ">
                   <ul className=" flex flex-col">
                     <li className=" text-base pb-[6px] font-Plus-Jakarta font-bold text-blue leading-[26px]">
                       Community
@@ -140,7 +144,7 @@ const FooterSection = () => {
                     </li>
                   </ul>
                 </div>
-                <div className=" w-full sm:w-[50%] mt-5 md:w-[33.33%] flex justify-start sm:!justify-center md:justify-start md:hidden ">
+                <div className="  max-xl:px-[30px] max-lg:pr-[40px] max-lg:pl-0 pt-[19px]   ">
                   <ul className=" flex flex-col">
                     <li className=" text-base pb-[6px] font-Plus-Jakarta font-bold text-blue leading-[26px]">
                       Quick links
@@ -187,11 +191,7 @@ const FooterSection = () => {
                     </li>
                   </ul>
                 </div>
-              </div>
-            </div>
-            <div className="w-full lg:w-[50%] px-3">
-              <div className=" flex flex-wrap">
-                <div className=" w-full sm:w-[50%] md:w-[33.33%] mt-5 lg:mt-0 md:flex justify-start lg:justify-center max-md:hidden ">
+                <div className="  max-xl:px-[30px] max-lg:pr-[40px] max-lg:pl-0 pt-[19px]  ">
                   <ul className=" flex flex-col">
                     <li className=" text-base pb-[6px] font-Plus-Jakarta font-bold text-blue leading-[26px]">
                       Quick links
@@ -238,7 +238,7 @@ const FooterSection = () => {
                     </li>
                   </ul>
                 </div>
-                <div className=" w-full sm:w-[50%] md:w-[33.33%] mt-5 lg:mt-0 flex justify-start md:justify-center">
+                <div className="  max-xl:px-[30px] max-lg:pr-[40px] max-lg:pl-0 pt-[19px]  ">
                   <ul className=" flex flex-col">
                     <li className=" text-base pb-[6px] font-Plus-Jakarta font-bold text-blue leading-[26px]">
                       More
@@ -285,7 +285,7 @@ const FooterSection = () => {
                     </li>
                   </ul>
                 </div>
-                <div className=" w-full sm:w-[50%] md:w-[33.33%] mt-5 lg:mt-0 flex justify-start sm:justify-end">
+                <div className="   max-xl:px-[30px] max-lg:pr-[40px] max-lg:pl-0 pt-[19px] ">
                   <div className=" flex flex-col">
                     <p className=" text-base font-Plus-Jakarta font-bold leading-[26px]">
                       Download App
@@ -312,7 +312,7 @@ const FooterSection = () => {
                   </div>
                 </div>
               </div>
-            </div>
+         
           </div>
           <div className=" w-full bg-fade-blue h-[1px]"></div>
           <div className=" flex  justify-between pt-[31px]   max-md:flex-col sm:flex-nowrap ">

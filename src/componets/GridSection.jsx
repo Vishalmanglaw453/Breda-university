@@ -76,7 +76,7 @@ const GridSection = () => {
             <div
               className={`${
                 nav ? " max-lg:left-0" : "max-lg:left-[-104%] "
-              } filter_box  lg:min-w-[287px] max-lg:min-w-[360px]   max-lg:p-[30px] max-lg:max-h-[100vh]   max-lg:overflow-y-scroll    max-lg:fixed max-lg:bg-[#F8FAFF]    max-lg:h-[100vh]   max-lg:top-0   max-lg:ease-linear max-lg:duration-300   z-50 `}
+              } filter_box  lg:min-w-[287px] max-lg:min-w-[360px]  pt-[44px]  max-lg:p-[30px] max-lg:max-h-[100vh]   max-lg:overflow-y-scroll    max-lg:fixed max-lg:bg-[#F8FAFF]    max-lg:h-[100vh]   max-lg:top-0   max-lg:ease-linear max-lg:duration-300   z-50 `}
             >
               <div className="">
                 <div className=" flex justify-end mb-4  lg:hidden ">
@@ -98,7 +98,7 @@ const GridSection = () => {
                     Reset
                   </a>
                 </div>
-                <div className="max-w-[269px] w-full h-[1px] bg-fade-blue2  ml-[14px] mr-[4px] mt-[10px] "></div>
+                <div className="max-w-[269px] w-full h-[1px] bg-fade-blue2  ml-[9px] mr-[4px] mt-[10px] "></div>
                 <div className="relative pl-[14px]">
                   <button
                     className="flex w-full border-[1px] border-fade-blue py-[18px] px-[22px] rounded-[10px] max-w-[269px] mt-[28px] justify-between items-center gap-[28.5px] text-sm font-Plus-Jakarta font-medium leading-[22px] text-gray2"
@@ -218,7 +218,9 @@ const GridSection = () => {
                     </div>
                   </div>
                 </div>
-                <div className=" ">
+                <div className="max-w-[277px] w-full h-[1px] bg-fade-blue  ml-[9px] mr-[4px] mt-[18px] "></div>
+
+                <div className=" pl-sm ">
                   <div>
                     <p className=" font-Plus-Jakarta font-bold text-xlg text-blue leading-[26px] mt-[16px]">
                       Leerjaar
@@ -264,7 +266,7 @@ const GridSection = () => {
                     </div>
                   </div>
                 </div>
-                <div className="max-w-[277px] w-full h-[1px] bg-fade-blue  ml-[14px] mr-[4px] mt-[18px] "></div>
+                <div className="max-w-[277px] w-full h-[1px] bg-fade-blue  ml-[9px] mr-[4px] mt-[18px] "></div>
                 <div className="pl-sm ">
                   <div>
                     <p className=" font-Plus-Jakarta font-bold text-xlg text-blue leading-[26px] mt-[16px]">
@@ -311,7 +313,7 @@ const GridSection = () => {
                     </div>
                   </div>
                 </div>
-                <div className="max-w-[277px] w-full h-[1px] bg-fade-blue  ml-[14px] mr-[4px] mt-[18px] "></div>
+                <div className="max-w-[277px] w-full h-[1px] bg-fade-blue  ml-[9px] mr-[4px] mt-[18px] "></div>
                 <div className="pl-sm ">
                   <div>
                     <p className=" font-Plus-Jakarta font-bold text-xlg text-blue leading-[26px] mt-[16px]">
@@ -397,7 +399,7 @@ const GridSection = () => {
                     </div>
                   </div>
                 </div>
-                <div className="max-w-[277px] w-full h-[1px] bg-fade-blue  ml-[14px] mr-[4px] mt-[18px] "></div>
+                <div className="max-w-[277px] w-full h-[1px] bg-fade-blue  ml-[9px] mr-[4px] mt-[18px] "></div>
                 <div className="pl-sm ">
                   <div>
                     <p className=" font-Plus-Jakarta font-bold text-xlg text-blue leading-[26px] mt-[16px]">
@@ -444,7 +446,7 @@ const GridSection = () => {
                     </div>
                   </div>
                 </div>
-                <div className="max-w-[277px] w-full h-[1px] bg-fade-blue  ml-[14px] mr-[4px] mt-[18px] "></div>
+                <div className="max-w-[277px] w-full h-[1px] bg-fade-blue  ml-[9px] mr-[4px] mt-[18px] "></div>
                 <div className="pl-sm ">
                   <div>
                     <p className=" font-Plus-Jakarta font-bold text-xlg text-blue leading-[26px] mt-[16px]">
@@ -505,7 +507,7 @@ const GridSection = () => {
                   </div>
                 </div>
 
-                <div className="max-w-[277px] w-full h-[1px] bg-fade-blue  ml-[14px] mr-[4px] mt-[18px] "></div>
+                <div className="max-w-[277px] w-full h-[1px] bg-fade-blue  ml-[9px] mr-[4px] mt-[18px] "></div>
                 <div className="pl-sm ">
                   <div>
                     <p className=" font-Plus-Jakarta font-bold text-xlg text-blue leading-[26px] mt-[16px]">
@@ -572,7 +574,7 @@ const GridSection = () => {
             <div
               id="Studiekeuze"
               onClick={() => setNav(false)}
-              className=" max-w-[987px]   min-h-screen "
+              className=" max-w-[987px] pt-[36px]   min-h-screen "
             >
               <div className=" flex justify-between items-center">
                 <p className=" font-Plus-Jakarta font-medium text-sm leading-[22px] text-gray2">
@@ -880,7 +882,7 @@ const GridSection = () => {
                             {data.btn1text}
                           </button>{" "}
                           <br />
-                          <button className="px-[12px]  duration-300 ease-linear mt-[21px] py-[9px]  bg-[#EFF3FC] group-hover:bg-[#3E8600] group-hover:text-white     text-green rounded-[5px] font-Plus-Jakarta font-medium text-xs leading-[18px] ">
+                          <button className="px-[12px]  duration-300 ease-linear mt-[21px] py-[7px]  bg-[#EFF3FC] group-hover:bg-[#3E8600] group-hover:text-white     text-green rounded-[5px] font-Plus-Jakarta font-medium text-xs leading-[18px] ">
                             Solliciteren
                           </button>
                         </div>
@@ -897,7 +899,7 @@ const GridSection = () => {
                 {cardsData.map((data, index) => (
                   <div
                     key={index}
-                    className="hover:bg-transparent bg-light-gray max-w-[987px] duration-300 ease-linear mt-[30px] border border-fade-blue rounded-[16px] pt-6 pb-[30px] ps-[25px] pe-5"
+                    className="hover:bg-transparent bg-light-gray max-w-[987px] duration-300 ease-linear mt-[30px] border border-fade-blue hover:border-fade-blue2 rounded-[16px] pt-6 pb-[30px] ps-[25px] pe-5"
                   >
                     <div className="flex justify-between items-start flex-wrap gap-2">
                       <div className="flex gap-[19px] items-center">
@@ -930,7 +932,7 @@ const GridSection = () => {
                         <Icons icon="SystemIcon" />
                       </div>
                     </div>
-                    <h3 className="text-2xl font-Plus-Jakarta font-bold leading-[30.2px] text-blue pt-[28px] pb-2">
+                    <h3 className="text-2xl font-Plus-Jakarta font-bold leading-[30.2px] text-blue pt-[28px] ">
                       {data.jobTitle}
                     </h3>
                     <div className="flex gap-[19px] items-center">
@@ -953,7 +955,7 @@ const GridSection = () => {
                     <div className="flex items-end justify-between pt-[17px]">
                       <p className="text-base leading-[26px] font-bold text-green font-Plus-Jakarta">
                         {data.salary}
-                        <span className=" text-gray">{data.hour}</span>
+                        <span className=" text-gray text-xs font-medium">{data.hour}</span>
                       </p>
                       <button className="px-3 py-2 min-h-[30px]   bg-fade-blue hover:bg-green text-green  hover:text-white  border-[1px] duration-300 ease-linear border-transparent hover:border-green flex items-center justify-center  text-xs leading-[12px] font-Plus-Jakarta font-medium  rounded-[4px]">
                         Apply Now

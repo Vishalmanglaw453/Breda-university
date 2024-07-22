@@ -85,7 +85,7 @@ const Navbar = () => {
               <img src={Oval} alt="Oval" className=" max-w-[34.5px] w-full" />
               <div className=" hidden sm:block">
                 <div className=" flex flex-col ">
-                  <p className=" text-xsm font-bold font-Plus-Jakarta text-blue leading-[17.4px]">
+                  <p className=" text-xsm opacity-70 font-bold font-Plus-Jakarta text-blue leading-[17.4px]">
                     Willem Beekhuis
                   </p>
                   <p className=" text-light-blue text-xxs font-medium font-Plus-Jakarta leading-[17.7px]">

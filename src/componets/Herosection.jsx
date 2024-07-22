@@ -25,7 +25,7 @@ const Herosection = () => {
 
   return (
     <section>
-      <div id="home" className="container mx-auto pt-[29px] lg:pb-[76px] pb-9">
+      <div id="home" className="container mx-auto pt-[29px] ">
         <div className="bg-beschikbaar relative z-0 rounded-[16px] w-full px-4 min-h-[193px] pb-[44px] md:pb-[67px]">
           <img
             src={TheOffice}
@@ -48,7 +48,7 @@ const Herosection = () => {
             community. Doe praktijkervaring op, ontwikkel je vaardigheden en
             maak deel uit van ons enthousiaste team.
           </p>
-          <div className="flex flex-col md:flex-row p-5 items-center md:py-[7px] md:ps-[19px] md:pe-2 max-w-[726px] mx-auto min-h-[67px] bg-white border border-[#E0E6F6] rounded-[8px]">
+          <div className="flex flex-col shadow-[0px_37px_60px_-15px_#323B4F1A] md:flex-row p-5 items-center md:py-[7px] md:ps-[19px] md:pe-2 max-w-[726px] mx-auto min-h-[67px] bg-white border border-[#E0E6F6] rounded-[8px]">
             <div className="md:pe-[37.5px] w-full border-b md:border-b-0  max-w-[576px] lg:max-w-[147px] md:pb-0 pb-[15px] md:border-r-[1.4px] border-fade-blue2">
               <div className="relative">
                 <button

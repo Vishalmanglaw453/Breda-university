@@ -24,7 +24,6 @@ const GridSection = () => {
 
   if (nav === true) {
     document.body.classList.add("max-xl:overflow-hidden");
-    document.body.classList.add("max-xl:cursor-none");
   } else {
     document.body.classList.remove("max-xl:overflow-hidden");
   }
@@ -73,6 +72,7 @@ const GridSection = () => {
             Open Slidebaar
           </button>
           <div className="flex justify-between  max-2xl:gap-[40px]">
+            {/* grid box */}
             <div
               className={`${
                 nav ? " max-lg:left-0" : "max-lg:left-[-104%] "
@@ -568,7 +568,9 @@ const GridSection = () => {
               </div>
             </div>
 
+            {/* flat box */}
             <div
+              id="Studiekeuze"
               onClick={() => setNav(false)}
               className=" max-w-[987px]   min-h-screen "
             >
@@ -579,7 +581,7 @@ const GridSection = () => {
                 <div className=" flex gap-[10px]">
                   <div className="relative max-md:hidden">
                     <button
-                      className="flex w-full justify-between   py-[6px] px-[12px] items-center gap-[17px] border-[1px]  border-fade-blue rounded-[4px] text-sm font-Plus-Jakarta font-medium leading-[22px] text-gray2"
+                      className="flex w-full justify-between   py-[6px] px-[12px] items-center gap-[17px] border-[1px]  border-fade-blue rounded-[4px] text-sm font-Plus-Jakarta font-medium leading-[17px] text-gray2"
                       onClick={() => toggledown("experience")}
                     >
                       <span className="flex items-center gap-[7px]">
@@ -611,7 +613,7 @@ const GridSection = () => {
                   </div>
                   <div className="relative max-md:hidden">
                     <button
-                      className="flex w-full justify-between   py-[6px] px-[12px] items-center gap-[17px] border-[1px]  border-fade-blue rounded-[4px] text-sm font-Plus-Jakarta font-medium leading-[22px] text-gray2"
+                      className="flex w-full justify-between   py-[6px] px-[12px] items-center gap-[17px] border-[1px]  border-fade-blue rounded-[4px] text-sm font-Plus-Jakarta font-medium leading-[17px] text-gray2"
                       onClick={() => toggleDrop("experience")}
                     >
                       <span className="flex items-center gap-[7px]">
@@ -649,8 +651,8 @@ const GridSection = () => {
                     className={`${
                       ActiveKey === "nav1"
                         ? "bg-[#3E8600]  border-[#3E8600] "
-                        : "bg-transparent"
-                    }   w-[30px] h-[30px] border-[1px] flex flex-col gap-[4px] justify-center  items-center border-fade-blue2 rounded-[4px]`}
+                        : "bg-transparent border-fade-blue2"
+                    }   w-[30px] h-[30px] border-[1px] flex flex-col gap-[4px] justify-center  items-center  rounded-[4px]`}
                   >
                     <div
                       className={`${
@@ -673,8 +675,8 @@ const GridSection = () => {
                     className={`${
                       ActiveKey === "nav2"
                         ? "bg-[#3E8600]  border-[#3E8600] "
-                        : "bg-transparent"
-                    }  w-[30px] h-[30px] border-[1px] flex flex-col gap-[4px] justify-center  items-center border-fade-blue2 rounded-[4px] `}
+                        : "bg-transparent border-fade-blue2"
+                    }  w-[30px] h-[30px] border-[1px] flex flex-col gap-[4px] justify-center  items-center  rounded-[4px] `}
                   >
                     <div className=" flex flex-col gap-[2px]">
                       <div className=" flex gap-[2px]">
@@ -813,7 +815,7 @@ const GridSection = () => {
 
               <div
                 className={`${
-                  ActiveKey === "nav1" ? "  block    " : "  hidden"
+                  ActiveKey === "nav2" ? "  block    " : "  hidden"
                 }  `}
               >
                 <div className=" pt-[30px] gap-[30px]  justify-center  flex flex-wrap ">
@@ -889,7 +891,7 @@ const GridSection = () => {
               </div>
               <div
                 className={`${
-                  ActiveKey === "nav2" ? "  block    " : "  hidden"
+                  ActiveKey === "nav1" ? "  block    " : "  hidden"
                 }  `}
               >
                 {cardsData.map((data, index) => (
@@ -951,9 +953,7 @@ const GridSection = () => {
                     <div className="flex items-end justify-between pt-[17px]">
                       <p className="text-base leading-[26px] font-bold text-green font-Plus-Jakarta">
                         {data.salary}
-                        <span  className=" text-gray">
-                          {data.hour}
-                        </span>
+                        <span className=" text-gray">{data.hour}</span>
                       </p>
                       <button className="px-3 py-2 min-h-[30px]   bg-fade-blue hover:bg-green text-green  hover:text-white  border-[1px] duration-300 ease-linear border-transparent hover:border-green flex items-center justify-center  text-xs leading-[12px] font-Plus-Jakarta font-medium  rounded-[4px]">
                         Apply Now

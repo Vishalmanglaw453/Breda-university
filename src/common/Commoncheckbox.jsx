@@ -10,7 +10,9 @@ const Commoncheckbox = () => {
   return (
     <>
       <div
-        className={`${check ? " bg-[#3E8600] border-transparent" : " bg-transparent "} w-[24px] h-[24px] flex justify-center items-center border-[1.5px] border-[#E0E6F6]  rounded-[7px] `}
+        className={`${
+          check ? " bg-[#3E8600] border-transparent" : " bg-transparent "
+        } w-[24px] h-[24px] cursor-pointer flex justify-center items-center border-[1.5px] border-[#E0E6F6]  rounded-[7px] `}
         onClick={handleclick}
       >
         <span className={`${check ? "block" : " hidden"}`}>

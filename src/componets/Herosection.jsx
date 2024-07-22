@@ -25,7 +25,7 @@ const Herosection = () => {
 
   return (
     <section>
-      <div className="container mx-auto pt-[29px] lg:pb-[76px] lg:pb-9">
+      <div id="home" className="container mx-auto pt-[29px] lg:pb-[76px] pb-9">
         <div className="bg-beschikbaar relative z-0 rounded-[16px] w-full px-4 min-h-[193px] pb-[44px] md:pb-[67px]">
           <img
             src={TheOffice}

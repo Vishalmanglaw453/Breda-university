@@ -8,13 +8,13 @@ const FooterSection = () => {
   return (
     <>
       <section className=" pt-[155px] max-lg:pt-[50px]">
-        <div className=" container mx-auto">
+        <div className=" container mx-auto pb-[67px] max-lg:pb-[40px]">
           <div className="flex -mx-3 flex-wrap pb-8 md:pb-[74px]">
             <div className="w-full lg:w-[50%] px-3">
               <div className=" flex flex-wrap">
                 <div className=" w-full sm:w-[50%] md:w-[33.33%]">
                   <div className="flex items-center gap-1">
-                    <img src={footerlogo} alt="logo" />
+                    <img className=" cursor-pointer" src={footerlogo} alt="logo" />
                   </div>
                   <p className=" max-w-[246px] text-xs font-Plus-Jakarta font-medium text-light-blue leading-[18px] py-[21.5px]">
                     JobBox is the heart of the design community and the best
@@ -52,40 +52,40 @@ const FooterSection = () => {
                     </li>
                     <li>
                       <a
-                        href=""
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium text-light-blue"
+                        href="#"
+                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         About{" "}
                       </a>
                     </li>
                     <li>
                       <a
-                        href=""
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium text-light-blue"
+                        href="#"
+                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Leadership{" "}
                       </a>
                     </li>
                     <li>
                       <a
-                        href=""
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium text-light-blue"
+                        href="#"
+                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Press News{" "}
                       </a>
                     </li>
                     <li>
                       <a
-                        href=""
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium text-light-blue"
+                        href="#"
+                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Careers Team{" "}
                       </a>
                     </li>
                     <li>
                       <a
-                        href=""
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium text-light-blue"
+                        href="#"
+                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Contact Us{" "}
                       </a>
@@ -99,24 +99,24 @@ const FooterSection = () => {
                     </li>
                     <li>
                       <a
-                        href=""
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium text-light-blue"
+                        href="#"
+                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Learners{" "}
                       </a>
                     </li>
                     <li>
                       <a
-                        href=""
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium text-light-blue"
+                        href="#"
+                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Partener{" "}
                       </a>
                     </li>
                     <li>
                       <a
-                        href=""
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium text-light-blue"
+                        href="#"
+                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         {" "}
                         Developers{" "}
@@ -124,16 +124,16 @@ const FooterSection = () => {
                     </li>
                     <li>
                       <a
-                        href=""
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium text-light-blue"
+                        href="#"
+                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Transactions{" "}
                       </a>
                     </li>
                     <li>
                       <a
-                        href=""
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium text-light-blue"
+                        href="#"
+                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Blog{" "}
                       </a>
@@ -147,40 +147,40 @@ const FooterSection = () => {
                     </li>
                     <li>
                       <a
-                        href=""
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium text-light-blue"
+                        href="#"
+                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Home{" "}
                       </a>
                     </li>
                     <li>
                       <a
-                        href=""
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium text-light-blue"
+                        href="#"
+                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Professional{" "}
                       </a>
                     </li>
                     <li>
                       <a
-                        href=""
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium text-light-blue"
+                        href="#"
+                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Education{" "}
                       </a>
                     </li>
                     <li>
                       <a
-                        href=""
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium text-light-blue"
+                        href="#"
+                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Courses{" "}
                       </a>
                     </li>
                     <li>
                       <a
-                        href=""
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium text-light-blue"
+                        href="#"
+                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Admissions{" "}
                       </a>
@@ -198,40 +198,40 @@ const FooterSection = () => {
                     </li>
                     <li>
                       <a
-                        href=""
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium text-light-blue"
+                        href="#"
+                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Home{" "}
                       </a>
                     </li>
                     <li>
                       <a
-                        href=""
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium text-light-blue"
+                        href="#"
+                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Professional{" "}
                       </a>
                     </li>
                     <li>
                       <a
-                        href=""
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium text-light-blue"
+                        href="#"
+                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Education{" "}
                       </a>
                     </li>
                     <li>
                       <a
-                        href=""
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium text-light-blue"
+                        href="#"
+                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Courses{" "}
                       </a>
                     </li>
                     <li>
                       <a
-                        href=""
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium text-light-blue"
+                        href="#"
+                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Admissions{" "}
                       </a>
@@ -245,40 +245,40 @@ const FooterSection = () => {
                     </li>
                     <li>
                       <a
-                        href=""
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium text-light-blue"
+                        href="#"
+                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Press{" "}
                       </a>
                     </li>
                     <li>
                       <a
-                        href=""
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium text-light-blue"
+                        href="#"
+                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Investors{" "}
                       </a>
                     </li>
                     <li>
                       <a
-                        href=""
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium text-light-blue"
+                        href="#"
+                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Terms{" "}
                       </a>
                     </li>
                     <li>
                       <a
-                        href=""
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium text-light-blue"
+                        href="#"
+                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Privacy Help{" "}
                       </a>
                     </li>
                     <li>
                       <a
-                        href=""
-                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium text-light-blue"
+                        href="#"
+                        className=" text-sm leading-[28px] font-Plus-Jakarta font-medium hover:text-blue duration-300 ease-linear text-light-blue"
                       >
                         Contact{" "}
                       </a>
@@ -315,7 +315,7 @@ const FooterSection = () => {
             </div>
           </div>
           <div className=" w-full bg-fade-blue h-[1px]"></div>
-          <div className=" flex  justify-between pt-[31px] flex-wrap sm:flex-nowrap ">
+          <div className=" flex  justify-between pt-[31px]   max-md:flex-col sm:flex-nowrap ">
             <p className="text-xs leading-[18px] font-Plus-Jakarta font-medium text-light-blue">
               Copyright © 2024 JobBox all right reserved
             </p>

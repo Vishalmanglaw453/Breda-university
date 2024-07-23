@@ -1,18 +1,18 @@
 import Xxl from "../assets/images/svg/xxl_logo.svg";
-import logo2 from "../assets/images/svg/cardlogo2.svg";
-import logo3 from "../assets/images/svg/cardlogo3.svg";
-import logo4 from "../assets/images/svg/cardlogo4.svg";
-import logo5 from "../assets/images/svg/cardlogo5.svg";
-import logo6 from "../assets/images/svg/cardlogo6.svg";
-import logo7 from "../assets/images/svg/cardlogo7.svg";
-import logo8 from "../assets/images/svg/cardlogo8.svg";
-import logo10 from "../assets/images/svg/cardlogo10.svg";
-import logo11 from "../assets/images/svg/cardlogo11.svg";
-import logo12 from "../assets/images/svg/cardlogo12.svg";
-import logo13 from "../assets/images/svg/cardlogo13.svg";
-import logo15 from "../assets/images/svg/cardlogo15.svg";
+import logo2 from "../assets/images/svg/card_logo_2.svg";
+import logo3 from "../assets/images/svg/card_logo_3.svg";
+import logo4 from "../assets/images/svg/card_logo_4.svg";
+import logo5 from "../assets/images/svg/card_logo_5.svg";
+import logo6 from "../assets/images/svg/card_logo_6.svg";
+import logo7 from "../assets/images/svg/card_logo_7.svg";
+import logo8 from "../assets/images/svg/card_logo_8.svg";
+import logo10 from "../assets/images/svg/card_logo_10.svg";
+import logo11 from "../assets/images/svg/card_logo_11.svg";
+import logo12 from "../assets/images/svg/card_logo_12.svg";
+import logo13 from "../assets/images/svg/card_logo_13.svg";
+import logo15 from "../assets/images/svg/card_logo_15.svg";
 import flashvactor from "../assets/images/svg/flash.svg";
-import flashvactor2 from "../assets/images/svg/flash2.svg";
+import flashvactor2 from "../assets/images/svg/flash_oange.svg";
 
 // first page
 export const Gridcommoncard = [
@@ -148,7 +148,7 @@ export const Gridcommoncard = [
   },
 
   {
-    logo:logo12 ,
+    logo: logo12,
     headingname: "Adobe Ilustrator",
     loctionname: "New York, US",
     secondheading: "Full Stack Engineer",
@@ -217,86 +217,93 @@ export const Gridcommoncard = [
 export const cardsData = [
   {
     employerLogo: logo7,
-    employerName: 'Dailymotion',
-    location: 'New York, US',
-    skills: ['Adobe XD', 'Figma'],
-    jobTitle: 'Full Stack Engineer',
-    jobType: 'Full time',
-    time: '3 mins ago',
-    description: 'The Tech Studio Design team has a vision to establish a trusted platform that enables productive and healthy enterprises in a world of digital and remote everything, constantly changing work patterns and norms, and the need for organizational resiliency.',
-    hour:"/Hour",
-    salary: '$500',
+    employerName: "Dailymotion",
+    location: "New York, US",
+    skills: ["Adobe XD", "Figma"],
+    jobTitle: "Full Stack Engineer",
+    jobType: "Full time",
+    time: "3 mins ago",
+    description:
+      "The Tech Studio Design team has a vision to establish a trusted platform that enables productive and healthy enterprises in a world of digital and remote everything, constantly changing work patterns and norms, and the need for organizational resiliency.",
+    hour: "/Hour",
+    salary: "$500",
   },
   {
     employerLogo: logo8,
-    employerName: 'Dailymotion',
-    location: 'California, US',
-    skills: ['Adobe XD', 'Figma'],
-    jobTitle: 'Full Stack Engineer',
-    jobType: 'Full time',
-    time: '3 mins ago',
-    description: 'The Tech Studio Design team has a vision to establish a trusted platform that enables productive and healthy enterprises in a world of digital and remote everything, constantly changing work patterns and norms, and the need for organizational resiliency.',
-    hour:"/Hour",
-    salary: '$500',
+    employerName: "Dailymotion",
+    location: "California, US",
+    skills: ["Adobe XD", "Figma"],
+    jobTitle: "Full Stack Engineer",
+    jobType: "Full time",
+    time: "3 mins ago",
+    description:
+      "The Tech Studio Design team has a vision to establish a trusted platform that enables productive and healthy enterprises in a world of digital and remote everything, constantly changing work patterns and norms, and the need for organizational resiliency.",
+    hour: "/Hour",
+    salary: "$500",
   },
   {
-      employerLogo: logo2,
-      employerName: 'Dailymotion',
-      location: 'California, US',
-      skills: ['Adobe XD', 'Figma'],
-      jobTitle: 'Full Stack Engineer',
-      jobType: 'Full time',
-      time: '3 mins ago',
-      description: 'The Tech Studio Design team has a vision to establish a trusted platform that enables productive and healthy enterprises in a world of digital and remote everything, constantly changing work patterns and norms, and the need for organizational resiliency.',
-      hour:"/Hour",
-      salary: '$500',
-    },
-    {
-      employerLogo: logo10,
-      employerName: 'Dailymotion',
-      location: 'California, US',
-      skills: ['Adobe XD', 'Figma'],
-      jobTitle: 'Full Stack Engineer',
-      jobType: 'Full time',
-      time: '3 mins ago',
-      description: 'The Tech Studio Design team has a vision to establish a trusted platform that enables productive and healthy enterprises in a world of digital and remote everything, constantly changing work patterns and norms, and the need for organizational resiliency.',
-      hour:"/Hour",
-      salary: '$500',
-    },
-    {
-      employerLogo: logo11,
-      employerName: 'Dailymotion',
-      location: 'California, US',
-      skills: ['Adobe XD', 'Figma'],
-      jobTitle: 'Full Stack Engineer',
-      jobType: 'Full time',
-      time: '3 mins ago',
-      description: 'The Tech Studio Design team has a vision to establish a trusted platform that enables productive and healthy enterprises in a world of digital and remote everything, constantly changing work patterns and norms, and the need for organizational resiliency.',
-      hour:"/Hour",
-      salary: '$500',
-    },
-    {
-      employerLogo: logo12,
-      employerName: 'Dailymotion',
-      location: 'California, US',
-      skills: ['Adobe XD', 'Figma'],
-      jobTitle: 'Full Stack Engineer',
-      jobType: 'Full time',
-      time: '3 mins ago',
-      description: 'The Tech Studio Design team has a vision to establish a trusted platform that enables productive and healthy enterprises in a world of digital and remote everything, constantly changing work patterns and norms, and the need for organizational resiliency.',
-      hour:"/Hour",
-      salary: '$500',
-    },
-    {
-      employerLogo: logo13,
-      employerName: 'Dailymotion',
-      location: 'California, US',
-      skills: ['Adobe XD', 'Figma'],
-      jobTitle: 'Full Stack Engineer',
-      jobType: 'Full time',
-      time: '3 mins ago',
-      description: 'The Tech Studio Design team has a vision to establish a trusted platform that enables productive and healthy enterprises in a world of digital and remote everything, constantly changing work patterns and norms, and the need for organizational resiliency.',
-      hour:"/Hour",
-      salary: '$500',
-    },
+    employerLogo: logo2,
+    employerName: "Dailymotion",
+    location: "California, US",
+    skills: ["Adobe XD", "Figma"],
+    jobTitle: "Full Stack Engineer",
+    jobType: "Full time",
+    time: "3 mins ago",
+    description:
+      "The Tech Studio Design team has a vision to establish a trusted platform that enables productive and healthy enterprises in a world of digital and remote everything, constantly changing work patterns and norms, and the need for organizational resiliency.",
+    hour: "/Hour",
+    salary: "$500",
+  },
+  {
+    employerLogo: logo10,
+    employerName: "Dailymotion",
+    location: "California, US",
+    skills: ["Adobe XD", "Figma"],
+    jobTitle: "Full Stack Engineer",
+    jobType: "Full time",
+    time: "3 mins ago",
+    description:
+      "The Tech Studio Design team has a vision to establish a trusted platform that enables productive and healthy enterprises in a world of digital and remote everything, constantly changing work patterns and norms, and the need for organizational resiliency.",
+    hour: "/Hour",
+    salary: "$500",
+  },
+  {
+    employerLogo: logo11,
+    employerName: "Dailymotion",
+    location: "California, US",
+    skills: ["Adobe XD", "Figma"],
+    jobTitle: "Full Stack Engineer",
+    jobType: "Full time",
+    time: "3 mins ago",
+    description:
+      "The Tech Studio Design team has a vision to establish a trusted platform that enables productive and healthy enterprises in a world of digital and remote everything, constantly changing work patterns and norms, and the need for organizational resiliency.",
+    hour: "/Hour",
+    salary: "$500",
+  },
+  {
+    employerLogo: logo12,
+    employerName: "Dailymotion",
+    location: "California, US",
+    skills: ["Adobe XD", "Figma"],
+    jobTitle: "Full Stack Engineer",
+    jobType: "Full time",
+    time: "3 mins ago",
+    description:
+      "The Tech Studio Design team has a vision to establish a trusted platform that enables productive and healthy enterprises in a world of digital and remote everything, constantly changing work patterns and norms, and the need for organizational resiliency.",
+    hour: "/Hour",
+    salary: "$500",
+  },
+  {
+    employerLogo: logo13,
+    employerName: "Dailymotion",
+    location: "California, US",
+    skills: ["Adobe XD", "Figma"],
+    jobTitle: "Full Stack Engineer",
+    jobType: "Full time",
+    time: "3 mins ago",
+    description:
+      "The Tech Studio Design team has a vision to establish a trusted platform that enables productive and healthy enterprises in a world of digital and remote everything, constantly changing work patterns and norms, and the need for organizational resiliency.",
+    hour: "/Hour",
+    salary: "$500",
+  },
 ];

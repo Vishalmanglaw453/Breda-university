@@ -17,7 +17,7 @@ module.exports = {
         darkgray: "#4F5E64",
       },
       fontFamily: {
-        "plus_jakarta": ["Plus Jakarta Sans", "sans-serif"],
+        plus_jakarta: ["Plus Jakarta Sans", "sans-serif"],
       },
 
       boxShadow: {

@@ -26,7 +26,7 @@ const HeroSection = () => {
   return (
     <section>
       <div id="home" className="container mx-auto pt-[29px]">
-        <div className="bg-Selago relative z-0 rounded-[16px] w-full px-4 min-h-[193px] pb-[33px] lg:pb-[67px]">
+        <div className="bg-beschikbaar relative z-0 rounded-[16px] w-full px-4 min-h-[193px] pb-[33px] lg:pb-[67px]">
           <img
             src={TheOffice}
             alt="TheOffice"
@@ -38,7 +38,7 @@ const HeroSection = () => {
             className="absolute bottom-0 z-0 hidden xl:block right-2 2xl:right-3 opacity-65 max-w-[180px] 2xl:max-w-[213px]"
           />
           <h1 className="text-2xl leading-[30.2px] md:text-3xl md:leading-[35.2px] font-plus_jakarta text-orange text-center font-bold pt-[33px] md:pt-[25px]">
-            312 vacatures <span className="text-blue">Selago</span>
+            312 vacatures <span className="text-blue">beschikbaar</span>
           </h1>
           <p className="max-w-[929px] mx-auto text-sm font-plus_jakarta text-center font-medium leading-[22px] pt-[10px] pb-6 text-light-blue">
             Ben je op zoek naar een uitdagende stage? Bij BUas bieden we inspirerende en leerzame stageplekken aan. Of je nu een meewerkstage of een onderzoeksstage zoekt, wij hebben iets voor jou! Onze hogeschool staat bekend om zijn internationale karakter en betrokken community. Doe praktijkervaring op, ontwikkel je vaardigheden en maak deel uit van ons enthousiaste team.</p>

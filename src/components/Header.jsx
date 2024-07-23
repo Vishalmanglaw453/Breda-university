@@ -6,12 +6,12 @@ import Icons from "../common/Icons";
 const Header = () => {
   const [isOpen, setOpen] = useState(false);
 
-  const handleMenuToggle = () => {
+  const HANDLE_MENU_TOGGLE = () => {
     setOpen(!isOpen);
     document.body.classList.toggle("overflow-hidden");
   };
 
-  const handleNavLinkClick = () => {
+  const HANDLE_NAVLINK_CLICK = () => {
     if (isOpen) {
       document.body.classList.remove("overflow-hidden");
       setOpen(false)
@@ -32,12 +32,12 @@ const Header = () => {
           <ul
             className={`${
               isOpen ? "right-0" : "right-[-100%]"
-            } flex items-center gap-6 xl:gap-12 max-lg:flex-col max-lg:fixed duration-300 ease-linear max-lg:w-full max-lg:h-screen max-lg:justify-center max-lg:items-center max-lg:top-0 max-lg:bg-Selago z-50`}
+            } flex items-center gap-6 xl:gap-12 max-lg:flex-col max-lg:fixed duration-300 ease-linear max-lg:w-full max-lg:h-screen max-lg:justify-center max-lg:items-center max-lg:top-0 max-lg:bg-beschikbaar z-50`}
           >
             <li>
               <a
                 href="#home"
-                onClick={handleNavLinkClick}
+                onClick={HANDLE_NAVLINK_CLICK}
                 className="text-sm max-lg:text-lg leading-[17.6px] font-plus_jakarta text-blue font-medium relative after:absolute after:w-0 after:left-0 after:bottom-[-10px] after:h-[2px] after:bg-green hover:after:w-full after:duration-300 after:ease-linear hover:text-green duration-300"
               >
                 Home
@@ -46,7 +46,7 @@ const Header = () => {
             <li>
               <a
                 href="#Studiekeuze"
-                onClick={handleNavLinkClick}
+                onClick={HANDLE_NAVLINK_CLICK}
                 className="text-sm max-lg:text-lg leading-[17.6px] font-plus_jakarta text-blue font-medium relative after:absolute after:w-0 after:left-0 after:bottom-[-10px] after:h-[2px] after:bg-green hover:after:w-full after:duration-300 after:ease-linear hover:text-green duration-300"
               >
                 Studiekeuze
@@ -55,7 +55,7 @@ const Header = () => {
             <li>
               <a
                 href="#"
-                onClick={handleNavLinkClick}
+                onClick={HANDLE_NAVLINK_CLICK}
                 className="text-sm max-lg:text-lg leading-[17.6px] font-plus_jakarta text-blue font-medium relative after:absolute after:w-0 after:left-0 after:bottom-[-10px] after:h-[2px] after:bg-green hover:after:w-full after:duration-300 after:ease-linear hover:text-green duration-300"
               >
                 Samenwerken
@@ -64,7 +64,7 @@ const Header = () => {
             <li>
               <a
                 href="#"
-                onClick={handleNavLinkClick}
+                onClick={HANDLE_NAVLINK_CLICK}
                 className="text-sm max-lg:text-lg leading-[17.6px] font-plus_jakarta text-blue font-medium relative after:absolute after:w-0 after:left-0 after:bottom-[-10px] after:h-[2px] after:bg-green hover:after:w-full after:duration-300 after:ease-linear hover:text-green duration-300"
               >
                 Onderzoek
@@ -73,7 +73,7 @@ const Header = () => {
             <li>
               <a
                 href="#"
-                onClick={handleNavLinkClick}
+                onClick={HANDLE_NAVLINK_CLICK}
                 className="text-sm max-lg:text-lg leading-[17.6px] font-plus_jakarta text-blue font-medium relative after:absolute after:w-0 after:left-0 after:bottom-[-10px] after:h-[2px] after:bg-green hover:after:w-full after:duration-300 after:ease-linear hover:text-green duration-300"
               >
                 Meer BUas
@@ -96,7 +96,7 @@ const Header = () => {
               </div>
             </div>
             <div
-                onClick={handleMenuToggle}
+                onClick={HANDLE_MENU_TOGGLE}
                 className={`${isOpen && "menu"} z-50 lg:hidden`}
               >
                 <span className="h-[5px] rounded-[6px] block bg-blue w-[30px] duration-300"></span>

@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       colors: {
         blue: "#00406B",
-        Selago: "#F2F6FD",
+        beschikbaar: "#F2F6FD",
         "light-blue": "#66789C",
         "fade-blue": "#E0E6F6",
         dark_blue: "#B4C0E0",

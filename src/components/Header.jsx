@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Logo from "../assets/images/webp/Logo.webp";
-import Oval from "../assets/images/webp/Oval.webp";
+import logo from "../assets/images/webp/logo.webp";
+import oval from "../assets/images/webp/oval.webp";
 import Icons from "../common/Icons";
 
 const Header = () => {
@@ -19,12 +19,12 @@ const Header = () => {
   };
 
   return (
-    <section className=" shadow-nav_shadow">
-      <div className=" container mx-auto">
+    <section className="shadow-nav_shadow">
+      <div className="container mx-auto">
         <nav className="flex items-center justify-between pt-[23px] pb-[18px]">
           <a href="#">
             <img
-              src={Logo}
+              src={logo}
               alt="Logo"
               className="max-w-[137px] min-h-[44px] w-full"
             />
@@ -81,15 +81,15 @@ const Header = () => {
             </li>
           </ul>
           <div className="flex items-center gap-[19.7px]">
-            <Icons icon="Notification" className=" cursor-pointer" />
+            <Icons icon="Notification" className="cursor-pointer" />
             <div className="flex items-center gap-2 cursor-pointer">
-              <img src={Oval} alt="Oval" className=" max-w-[34.5px] w-full" />
-              <div className=" hidden sm:block">
-                <div className=" flex flex-col ">
-                  <p className=" text-sm opacity-70 font-bold font-plus_jakarta text-blue leading-[17.4px]">
+              <img src={oval} alt="Oval" className="max-w-[34.5px] w-full" />
+              <div className="hidden sm:block">
+                <div className="flex flex-col">
+                  <p className="text-sm opacity-70 font-bold font-plus_jakarta text-blue leading-[17.4px]">
                     Willem Beekhuis
                   </p>
-                  <p className=" text-light-blue text-xs font-medium font-plus_jakarta leading-[17.7px]">
+                  <p className="text-light-blue text-xs font-medium font-plus_jakarta leading-[17.7px]">
                     Student
                   </p>
                 </div>

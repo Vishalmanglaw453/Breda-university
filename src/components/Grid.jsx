@@ -1,5 +1,5 @@
 import React from "react";
-import Checkbox from "../common/Commoncheckbox";
+import Checkbox from "../common/CommonCheckBox";
 import { Gridcommoncard } from "../common/Helper";
 import {
   Begsvg,
@@ -14,7 +14,7 @@ import Icons from "../common/Icons";
 import { useState } from "react";
 import { cardsData } from "../common/Helper";
 import { useEffect } from "react";
-const GridSection = () => {
+const Grid = () => {
   const [ActiveKey, setActiveKey] = useState("nav1");
   useEffect(() => {
     setActiveKey("nav1");
@@ -67,19 +67,19 @@ const GridSection = () => {
         <div className="container">
           <button
             onClick={() => setNav(!nav)}
-            className="px-3 py-2 min-h-[30px]    lg:hidden w-full my-[20px] flex items-center justify-center text-white text-xs leading-[12px] font-plus_jakarta font-medium bg-green rounded-[4px]"
+            className="px-3 py-2 min-h-[30px] lg:hidden w-full my-[20px] flex items-center justify-center text-white text-xs leading-[12px] font-plus_jakarta font-medium bg-green rounded-[4px]"
           >
             Open Slidebaar
           </button>
-          <div className="flex justify-between  max-2xl:gap-[40px]">
+          <div className="flex justify-between max-2xl:gap-[40px]">
             {/* grid box */}
             <div
               className={`${
                 nav ? " max-lg:left-0" : "max-lg:left-[-104%] "
-              } filter_box  lg:min-w-[287px] max-lg:min-w-[360px]  pt-[44px]  max-lg:p-[30px] max-lg:max-h-[100vh]   max-lg:overflow-y-scroll    max-lg:fixed max-lg:bg-light-gray    max-lg:h-[100vh]   max-lg:top-0   max-lg:ease-linear max-lg:duration-300   z-50 `}
+              } filter_box lg:min-w-[287px] max-lg:min-w-[360px] pt-[44px] max-lg:p-[30px] max-lg:max-h-[100vh] max-lg:overflow-y-scroll max-lg:fixed max-lg:bg-light-gray max-lg:h-[100vh] max-lg:top-0 max-lg:ease-linear max-lg:duration-300 z-50 `}
             >
               <div className="">
-                <div className=" flex justify-end mb-4  lg:hidden ">
+                <div className="flex justify-end mb-4 lg:hidden">
                   <button
                     onClick={() => setNav(false)}
                     className="px-3 py-2 min-h-[30px] flex items-center justify-center text-white text-xs leading-[12px] font-plus_jakarta font-medium bg-green rounded-[4px]"
@@ -88,17 +88,17 @@ const GridSection = () => {
                   </button>
                 </div>
                 <div className="pl-[14px] pr-[4px] flex justify-between items-center">
-                  <p className=" font-plus_jakarta font-bold text-xl leading-[26px]  text-blue ">
+                  <p className="font-plus_jakarta font-bold text-xl leading-[26px] text-blue">
                     Filter
                   </p>
                   <a
                     href="#"
-                    className=" font-plus_jakarta font-medium text-sm  text-light-blue"
+                    className="font-plus_jakarta font-medium text-sm text-light-blue"
                   >
                     Reset
                   </a>
                 </div>
-                <div className="max-w-[269px] w-full h-[1px] bg-dark_blue  ml-[9px] mr-[4px] mt-[10px] "></div>
+                <div className="max-w-[269px] w-full h-[1px] bg-dark_blue ml-[9px] mr-[4px] mt-[10px]"></div>
                 <div className="relative pl-[14px]">
                   <button
                     className="flex w-full border-[1px] border-fade-blue py-[18px] px-[22px] rounded-[10px] max-w-[269px] mt-[28px] justify-between items-center gap-[28.5px] text-sm font-plus_jakarta font-medium leading-[22px] text-darkgray"
@@ -133,373 +133,373 @@ const GridSection = () => {
                     </ul>
                   )}
                 </div>
-                <div className="pl-2.5 ">
+                <div className="pl-2.5">
                   <div>
-                    <p className=" font-plus_jakarta font-bold text-base text-blue leading-[26px] mt-[16px]">
+                    <p className="font-plus_jakarta font-bold text-base text-blue leading-[26px] mt-[16px]">
                       Domein
                     </p>
-                    <div className=" pr-1.5 flex items-center justify-between mt-[18px]">
-                      <div className=" flex items-center gap-[12px] group ">
+                    <div className="pr-1.5 flex items-center justify-between mt-[18px]">
+                      <div className="flex items-center gap-[12px] group">
                         <Checkbox />
-                        <p className="  group-hover:text-blue text-light-blue  font-plus_jakarta font-medium text-sm leading-[22px]">
+                        <p className=" group-hover:text-blue text-light-blue font-plus_jakarta font-medium text-sm leading-[22px]">
                           Alles
                         </p>
                       </div>
-                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px] ">
-                        <p className=" font-plus_jakarta font-medium text-xs  leading-[18px] text-green">
+                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px]">
+                        <p className="font-plus_jakarta font-medium text-xs leading-[18px] text-green">
                           312
                         </p>
                       </div>
                     </div>
-                    <div className=" pr-1.5 flex items-center justify-between mt-[18px]">
-                      <div className=" flex items-center gap-[12px] group ">
+                    <div className="pr-1.5 flex items-center justify-between mt-[18px]">
+                      <div className="flex items-center gap-[12px] group">
                         <Checkbox />
-                        <p className="  group-hover:text-blue text-light-blue  font-plus_jakarta font-medium text-sm leading-[22px]">
+                        <p className=" group-hover:text-blue text-light-blue font-plus_jakarta font-medium text-sm leading-[22px]">
                           Facility
                         </p>
                       </div>
-                      <div className="w-[24px]    h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px] ">
-                        <p className=" font-plus_jakarta font-medium text-xs  leading-[18px] text-green">
+                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px]">
+                        <p className="font-plus_jakarta font-medium text-xs leading-[18px] text-green">
                           12
                         </p>
                       </div>
                     </div>
-                    <div className=" pr-1.5 flex items-center justify-between mt-[18px]">
-                      <div className=" flex items-center gap-[12px] group ">
+                    <div className="pr-1.5 flex items-center justify-between mt-[18px]">
+                      <div className="flex items-center gap-[12px] group">
                         <Checkbox />
-                        <p className="  group-hover:text-blue text-light-blue  font-plus_jakarta font-medium text-sm leading-[22px]">
+                        <p className=" group-hover:text-blue text-light-blue font-plus_jakarta font-medium text-sm leading-[22px]">
                           Hotel
                         </p>
                       </div>
-                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px] ">
-                        <p className=" font-plus_jakarta font-medium text-xs  leading-[18px] text-green">
+                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px]">
+                        <p className="font-plus_jakarta font-medium text-xs leading-[18px] text-green">
                           23
                         </p>
                       </div>
                     </div>
-                    <div className=" pr-1.5 flex items-center justify-between mt-[18px]">
-                      <div className=" flex items-center gap-[12px] group ">
+                    <div className="pr-1.5 flex items-center justify-between mt-[18px]">
+                      <div className="flex items-center gap-[12px] group">
                         <Checkbox />
-                        <p className="  group-hover:text-blue text-light-blue  font-plus_jakarta font-medium text-sm leading-[22px]">
+                        <p className=" group-hover:text-blue text-light-blue font-plus_jakarta font-medium text-sm leading-[22px]">
                           Leisure & Events
                         </p>
                       </div>
-                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px] ">
-                        <p className=" font-plus_jakarta font-medium text-xs  leading-[18px] text-green">
+                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px]">
+                        <p className="font-plus_jakarta font-medium text-xs leading-[18px] text-green">
                           43
                         </p>
                       </div>
                     </div>
-                    <div className=" pr-1.5 flex items-center justify-between mt-[18px]">
-                      <div className=" flex items-center gap-[12px] group ">
+                    <div className="pr-1.5 flex items-center justify-between mt-[18px]">
+                      <div className="flex items-center gap-[12px] group">
                         <Checkbox />
-                        <p className="  group-hover:text-blue text-light-blue  font-plus_jakarta font-medium text-sm leading-[22px]">
+                        <p className=" group-hover:text-blue text-light-blue font-plus_jakarta font-medium text-sm leading-[22px]">
                           Media
                         </p>
                       </div>
-                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px] ">
-                        <p className=" font-plus_jakarta font-medium text-xs  leading-[18px] text-green">
+                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px]">
+                        <p className="font-plus_jakarta font-medium text-xs leading-[18px] text-green">
                           56
                         </p>
                       </div>
                     </div>
-                    <div className=" pr-1.5 flex items-center justify-between mt-[18px]">
-                      <div className=" flex items-center gap-[12px] group ">
+                    <div className="pr-1.5 flex items-center justify-between mt-[18px]">
+                      <div className="flex items-center gap-[12px] group">
                         <Checkbox />
-                        <p className="  group-hover:text-blue text-light-blue  font-plus_jakarta font-medium text-sm leading-[22px]">
+                        <p className=" group-hover:text-blue text-light-blue font-plus_jakarta font-medium text-sm leading-[22px]">
                           Tourism
                         </p>
                       </div>
-                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px] ">
-                        <p className=" font-plus_jakarta font-medium text-xs  leading-[18px] text-green">
+                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px]">
+                        <p className="font-plus_jakarta font-medium text-xs leading-[18px] text-green">
                           76
                         </p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="max-w-[277px] w-full h-[1px] bg-fade-blue  ml-[9px] mr-[4px] mt-[18px] "></div>
+                <div className="max-w-[277px] w-full h-[1px] bg-fade-blue ml-[9px] mr-[4px] mt-[18px]"></div>
 
-                <div className=" pl-2.5 ">
+                <div className="pl-2.5">
                   <div>
-                    <p className=" font-plus_jakarta font-bold text-base text-blue leading-[26px] mt-[16px]">
+                    <p className="font-plus_jakarta font-bold text-base text-blue leading-[26px] mt-[16px]">
                       Leerjaar
                     </p>
-                    <div className=" pr-1.5 flex items-center justify-between mt-[18px]">
-                      <div className=" flex items-center gap-[12px] group ">
+                    <div className="pr-1.5 flex items-center justify-between mt-[18px]">
+                      <div className="flex items-center gap-[12px] group">
                         <Checkbox />
-                        <p className="  group-hover:text-blue text-light-blue  font-plus_jakarta font-medium text-sm leading-[22px]">
+                        <p className=" group-hover:text-blue text-light-blue font-plus_jakarta font-medium text-sm leading-[22px]">
                           Vierderjaars
                         </p>
                       </div>
-                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px] ">
-                        <p className=" font-plus_jakarta font-medium text-xs  leading-[18px] text-green">
+                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px]">
+                        <p className="font-plus_jakarta font-medium text-xs leading-[18px] text-green">
                           24
                         </p>
                       </div>
                     </div>
-                    <div className=" pr-1.5 flex items-center justify-between mt-[18px]">
-                      <div className=" flex items-center gap-[12px] group ">
+                    <div className="pr-1.5 flex items-center justify-between mt-[18px]">
+                      <div className="flex items-center gap-[12px] group">
                         <Checkbox />
-                        <p className="  group-hover:text-blue text-light-blue  font-plus_jakarta font-medium text-sm leading-[22px]">
+                        <p className=" group-hover:text-blue text-light-blue font-plus_jakarta font-medium text-sm leading-[22px]">
                           Derdejaars
                         </p>
                       </div>
-                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px] ">
-                        <p className=" font-plus_jakarta font-medium text-xs  leading-[18px] text-green">
+                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px]">
+                        <p className="font-plus_jakarta font-medium text-xs leading-[18px] text-green">
                           45
                         </p>
                       </div>
                     </div>
-                    <div className=" pr-1.5 flex items-center justify-between mt-[18px]">
-                      <div className=" flex items-center gap-[12px] group ">
+                    <div className="pr-1.5 flex items-center justify-between mt-[18px]">
+                      <div className="flex items-center gap-[12px] group">
                         <Checkbox />
-                        <p className="  group-hover:text-blue text-light-blue  font-plus_jakarta font-medium text-sm leading-[22px]">
+                        <p className=" group-hover:text-blue text-light-blue font-plus_jakarta font-medium text-sm leading-[22px]">
                           Tweedejaars
                         </p>
                       </div>
-                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px] ">
-                        <p className=" font-plus_jakarta font-medium text-xs  leading-[18px] text-green">
+                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px]">
+                        <p className="font-plus_jakarta font-medium text-xs leading-[18px] text-green">
                           56
                         </p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="max-w-[277px] w-full h-[1px] bg-fade-blue  ml-[9px] mr-[4px] mt-[18px] "></div>
-                <div className="pl-2.5 ">
+                <div className="max-w-[277px] w-full h-[1px] bg-fade-blue ml-[9px] mr-[4px] mt-[18px]"></div>
+                <div className="pl-2.5">
                   <div>
-                    <p className=" font-plus_jakarta font-bold text-base text-blue leading-[26px] mt-[16px]">
+                    <p className="font-plus_jakarta font-bold text-base text-blue leading-[26px] mt-[16px]">
                       Position
                     </p>
-                    <div className=" pr-1.5 flex items-center justify-between mt-[18px]">
-                      <div className=" flex items-center gap-[12px] group ">
+                    <div className="pr-1.5 flex items-center justify-between mt-[18px]">
+                      <div className="flex items-center gap-[12px] group">
                         <Checkbox />
-                        <p className="  group-hover:text-blue text-light-blue  font-plus_jakarta font-medium text-sm leading-[22px]">
+                        <p className=" group-hover:text-blue text-light-blue font-plus_jakarta font-medium text-sm leading-[22px]">
                           Senior
                         </p>
                       </div>
-                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px] ">
-                        <p className=" font-plus_jakarta font-medium text-xs  leading-[18px] text-green">
+                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px]">
+                        <p className="font-plus_jakarta font-medium text-xs leading-[18px] text-green">
                           12
                         </p>
                       </div>
                     </div>
-                    <div className=" pr-1.5 flex items-center justify-between mt-[18px]">
-                      <div className=" flex items-center gap-[12px] group ">
+                    <div className="pr-1.5 flex items-center justify-between mt-[18px]">
+                      <div className="flex items-center gap-[12px] group">
                         <Checkbox />
-                        <p className="  group-hover:text-blue text-light-blue  font-plus_jakarta font-medium text-sm leading-[22px]">
+                        <p className=" group-hover:text-blue text-light-blue font-plus_jakarta font-medium text-sm leading-[22px]">
                           Junior
                         </p>
                       </div>
-                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px] ">
-                        <p className=" font-plus_jakarta font-medium text-xs  leading-[18px] text-green">
+                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px]">
+                        <p className="font-plus_jakarta font-medium text-xs leading-[18px] text-green">
                           34
                         </p>
                       </div>
                     </div>
-                    <div className=" pr-1.5 flex items-center justify-between mt-[18px]">
-                      <div className=" flex items-center gap-[12px] group ">
+                    <div className="pr-1.5 flex items-center justify-between mt-[18px]">
+                      <div className="flex items-center gap-[12px] group">
                         <Checkbox />
-                        <p className="  group-hover:text-blue text-light-blue  font-plus_jakarta font-medium text-sm leading-[22px]">
+                        <p className=" group-hover:text-blue text-light-blue font-plus_jakarta font-medium text-sm leading-[22px]">
                           Fresher
                         </p>
                       </div>
-                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px] ">
-                        <p className=" font-plus_jakarta font-medium text-xs  leading-[18px] text-green">
+                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px]">
+                        <p className="font-plus_jakarta font-medium text-xs leading-[18px] text-green">
                           54
                         </p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="max-w-[277px] w-full h-[1px] bg-fade-blue  ml-[9px] mr-[4px] mt-[18px] "></div>
-                <div className="pl-2.5 ">
+                <div className="max-w-[277px] w-full h-[1px] bg-fade-blue ml-[9px] mr-[4px] mt-[18px]"></div>
+                <div className="pl-2.5">
                   <div>
-                    <p className=" font-plus_jakarta font-bold text-base text-blue leading-[26px] mt-[16px]">
+                    <p className="font-plus_jakarta font-bold text-base text-blue leading-[26px] mt-[16px]">
                       Experience Level
                     </p>
-                    <div className=" pr-1.5 flex items-center justify-between mt-[18px]">
-                      <div className=" flex items-center gap-[12px] group ">
+                    <div className="pr-1.5 flex items-center justify-between mt-[18px]">
+                      <div className="flex items-center gap-[12px] group">
                         <Checkbox />
-                        <p className="  group-hover:text-blue text-light-blue  font-plus_jakarta font-medium text-sm leading-[22px]">
+                        <p className=" group-hover:text-blue text-light-blue font-plus_jakarta font-medium text-sm leading-[22px]">
                           Internship
                         </p>
                       </div>
-                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px] ">
-                        <p className=" font-plus_jakarta font-medium text-xs  leading-[18px] text-green">
+                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px]">
+                        <p className="font-plus_jakarta font-medium text-xs leading-[18px] text-green">
                           56
                         </p>
                       </div>
                     </div>
-                    <div className=" pr-1.5 flex items-center justify-between mt-[18px]">
-                      <div className=" flex items-center gap-[12px] group ">
+                    <div className="pr-1.5 flex items-center justify-between mt-[18px]">
+                      <div className="flex items-center gap-[12px] group">
                         <Checkbox />
-                        <p className="  group-hover:text-blue text-light-blue  font-plus_jakarta font-medium text-sm leading-[22px]">
+                        <p className=" group-hover:text-blue text-light-blue font-plus_jakarta font-medium text-sm leading-[22px]">
                           Entry Level
                         </p>
                       </div>
-                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px] ">
-                        <p className=" font-plus_jakarta font-medium text-xs  leading-[18px] text-green">
+                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px]">
+                        <p className="font-plus_jakarta font-medium text-xs leading-[18px] text-green">
                           87
                         </p>
                       </div>
                     </div>
-                    <div className=" pr-1.5 flex items-center justify-between mt-[18px]">
-                      <div className=" flex items-center gap-[12px] group ">
+                    <div className="pr-1.5 flex items-center justify-between mt-[18px]">
+                      <div className="flex items-center gap-[12px] group">
                         <Checkbox />
-                        <p className="  group-hover:text-blue text-light-blue  font-plus_jakarta font-medium text-sm leading-[22px]">
+                        <p className=" group-hover:text-blue text-light-blue font-plus_jakarta font-medium text-sm leading-[22px]">
                           Associate
                         </p>
                       </div>
-                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px] ">
-                        <p className=" font-plus_jakarta font-medium text-xs  leading-[18px] text-green">
+                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px]">
+                        <p className="font-plus_jakarta font-medium text-xs leading-[18px] text-green">
                           34
                         </p>
                       </div>
                     </div>
-                    <div className=" pr-1.5 flex items-center justify-between mt-[18px]">
-                      <div className=" flex items-center gap-[12px] group ">
+                    <div className="pr-1.5 flex items-center justify-between mt-[18px]">
+                      <div className="flex items-center gap-[12px] group">
                         <Checkbox />
-                        <p className="  group-hover:text-blue text-light-blue  font-plus_jakarta font-medium text-sm leading-[22px]">
+                        <p className=" group-hover:text-blue text-light-blue font-plus_jakarta font-medium text-sm leading-[22px]">
                           Mid Level
                         </p>
                       </div>
-                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px] ">
-                        <p className=" font-plus_jakarta font-medium text-xs  leading-[18px] text-green">
+                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px]">
+                        <p className="font-plus_jakarta font-medium text-xs leading-[18px] text-green">
                           45
                         </p>
                       </div>
                     </div>
-                    <div className=" pr-1.5 flex items-center justify-between mt-[18px]">
-                      <div className=" flex items-center gap-[12px] group ">
+                    <div className="pr-1.5 flex items-center justify-between mt-[18px]">
+                      <div className="flex items-center gap-[12px] group">
                         <Checkbox />
-                        <p className="  group-hover:text-blue text-light-blue  font-plus_jakarta font-medium text-sm leading-[22px]">
+                        <p className=" group-hover:text-blue text-light-blue font-plus_jakarta font-medium text-sm leading-[22px]">
                           Director
                         </p>
                       </div>
-                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px] ">
-                        <p className=" font-plus_jakarta font-medium text-xs  leading-[18px] text-green">
+                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px]">
+                        <p className="font-plus_jakarta font-medium text-xs leading-[18px] text-green">
                           76
                         </p>
                       </div>
                     </div>
-                    <div className=" pr-1.5 flex items-center justify-between mt-[18px]">
-                      <div className=" flex items-center gap-[12px] group ">
+                    <div className="pr-1.5 flex items-center justify-between mt-[18px]">
+                      <div className="flex items-center gap-[12px] group">
                         <Checkbox />
-                        <p className="  group-hover:text-blue text-light-blue  font-plus_jakarta font-medium text-sm leading-[22px]">
+                        <p className=" group-hover:text-blue text-light-blue font-plus_jakarta font-medium text-sm leading-[22px]">
                           Executive
                         </p>
                       </div>
-                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px] ">
-                        <p className=" font-plus_jakarta font-medium text-xs  leading-[18px] text-green">
+                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px]">
+                        <p className="font-plus_jakarta font-medium text-xs leading-[18px] text-green">
                           89
                         </p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="max-w-[277px] w-full h-[1px] bg-fade-blue  ml-[9px] mr-[4px] mt-[18px] "></div>
-                <div className="pl-2.5 ">
+                <div className="max-w-[277px] w-full h-[1px] bg-fade-blue ml-[9px] mr-[4px] mt-[18px]"></div>
+                <div className="pl-2.5">
                   <div>
-                    <p className=" font-plus_jakarta font-bold text-base text-blue leading-[26px] mt-[16px]">
+                    <p className="font-plus_jakarta font-bold text-base text-blue leading-[26px] mt-[16px]">
                       Onsite/Remote
                     </p>
-                    <div className=" pr-1.5 flex items-center justify-between mt-[18px]">
-                      <div className=" flex items-center gap-[12px] group ">
+                    <div className="pr-1.5 flex items-center justify-between mt-[18px]">
+                      <div className="flex items-center gap-[12px] group">
                         <Checkbox />
-                        <p className="  group-hover:text-blue text-light-blue  font-plus_jakarta font-medium text-sm leading-[22px]">
+                        <p className=" group-hover:text-blue text-light-blue font-plus_jakarta font-medium text-sm leading-[22px]">
                           On-site
                         </p>
                       </div>
-                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px] ">
-                        <p className=" font-plus_jakarta font-medium text-xs  leading-[18px] text-green">
+                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px]">
+                        <p className="font-plus_jakarta font-medium text-xs leading-[18px] text-green">
                           12
                         </p>
                       </div>
                     </div>
-                    <div className=" pr-1.5 flex items-center justify-between mt-[18px]">
-                      <div className=" flex items-center gap-[12px] group ">
+                    <div className="pr-1.5 flex items-center justify-between mt-[18px]">
+                      <div className="flex items-center gap-[12px] group">
                         <Checkbox />
-                        <p className="  group-hover:text-blue text-light-blue  font-plus_jakarta font-medium text-sm leading-[22px]">
+                        <p className=" group-hover:text-blue text-light-blue font-plus_jakarta font-medium text-sm leading-[22px]">
                           Remote
                         </p>
                       </div>
-                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px] ">
-                        <p className=" font-plus_jakarta font-medium text-xs  leading-[18px] text-green">
+                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px]">
+                        <p className="font-plus_jakarta font-medium text-xs leading-[18px] text-green">
                           56
                         </p>
                       </div>
                     </div>
-                    <div className=" pr-1.5 flex items-center justify-between mt-[18px]">
-                      <div className=" flex items-center gap-[12px] group ">
+                    <div className="pr-1.5 flex items-center justify-between mt-[18px]">
+                      <div className="flex items-center gap-[12px] group">
                         <Checkbox />
-                        <p className="  group-hover:text-blue text-light-blue  font-plus_jakarta font-medium text-sm leading-[22px]">
+                        <p className=" group-hover:text-blue text-light-blue font-plus_jakarta font-medium text-sm leading-[22px]">
                           Hybrid
                         </p>
                       </div>
-                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px] ">
-                        <p className=" font-plus_jakarta font-medium text-xs  leading-[18px] text-green">
+                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px]">
+                        <p className="font-plus_jakarta font-medium text-xs leading-[18px] text-green">
                           45
                         </p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="max-w-[277px] w-full h-[1px] bg-fade-blue  ml-[9px] mr-[4px] mt-[18px] "></div>
-                <div className="pl-2.5 ">
+                <div className="max-w-[277px] w-full h-[1px] bg-fade-blue ml-[9px] mr-[4px] mt-[18px]"></div>
+                <div className="pl-2.5">
                   <div>
-                    <p className=" font-plus_jakarta font-bold text-base text-blue leading-[26px] mt-[16px]">
+                    <p className="font-plus_jakarta font-bold text-base text-blue leading-[26px] mt-[16px]">
                       Job Posted
                     </p>
-                    <div className=" pr-1.5 flex items-center justify-between mt-[18px]">
-                      <div className=" flex items-center gap-[12px] group ">
+                    <div className="pr-1.5 flex items-center justify-between mt-[18px]">
+                      <div className="flex items-center gap-[12px] group">
                         <Checkbox />
-                        <p className="  group-hover:text-blue text-light-blue  font-plus_jakarta font-medium text-sm leading-[22px]">
+                        <p className=" group-hover:text-blue text-light-blue font-plus_jakarta font-medium text-sm leading-[22px]">
                           All
                         </p>
                       </div>
-                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px] ">
-                        <p className=" font-plus_jakarta font-medium text-xs  leading-[18px] text-green">
+                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px]">
+                        <p className="font-plus_jakarta font-medium text-xs leading-[18px] text-green">
                           78
                         </p>
                       </div>
                     </div>
-                    <div className=" pr-1.5 flex items-center justify-between mt-[18px]">
-                      <div className=" flex items-center gap-[12px] group ">
+                    <div className="pr-1.5 flex items-center justify-between mt-[18px]">
+                      <div className="flex items-center gap-[12px] group">
                         <Checkbox />
-                        <p className="  group-hover:text-blue text-light-blue  font-plus_jakarta font-medium text-sm leading-[22px]">
+                        <p className=" group-hover:text-blue text-light-blue font-plus_jakarta font-medium text-sm leading-[22px]">
                           1 day
                         </p>
                       </div>
-                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px] ">
-                        <p className=" font-plus_jakarta font-medium text-xs  leading-[18px] text-green">
+                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px]">
+                        <p className="font-plus_jakarta font-medium text-xs leading-[18px] text-green">
                           56
                         </p>
                       </div>
                     </div>
-                    <div className=" pr-1.5 flex items-center justify-between mt-[18px]">
-                      <div className=" flex items-center gap-[12px] group ">
+                    <div className="pr-1.5 flex items-center justify-between mt-[18px]">
+                      <div className="flex items-center gap-[12px] group">
                         <Checkbox />
-                        <p className="  group-hover:text-blue text-light-blue  font-plus_jakarta font-medium text-sm leading-[22px]">
+                        <p className=" group-hover:text-blue text-light-blue font-plus_jakarta font-medium text-sm leading-[22px]">
                           7 days
                         </p>
                       </div>
-                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px] ">
-                        <p className=" font-plus_jakarta font-medium text-xs  leading-[18px] text-green">
+                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px]">
+                        <p className="font-plus_jakarta font-medium text-xs leading-[18px] text-green">
                           23
                         </p>
                       </div>
                     </div>
-                    <div className=" pr-1.5 flex items-center justify-between mt-[18px]">
-                      <div className=" flex items-center gap-[12px] group ">
+                    <div className="pr-1.5 flex items-center justify-between mt-[18px]">
+                      <div className="flex items-center gap-[12px] group">
                         <Checkbox />
-                        <p className="  group-hover:text-blue text-light-blue  font-plus_jakarta font-medium text-sm leading-[22px]">
+                        <p className=" group-hover:text-blue text-light-blue font-plus_jakarta font-medium text-sm leading-[22px]">
                           30 days
                         </p>
                       </div>
-                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px] ">
-                        <p className=" font-plus_jakarta font-medium text-xs  leading-[18px] text-green">
+                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px]">
+                        <p className="font-plus_jakarta font-medium text-xs leading-[18px] text-green">
                           54
                         </p>
                       </div>
@@ -507,60 +507,60 @@ const GridSection = () => {
                   </div>
                 </div>
 
-                <div className="max-w-[277px] w-full h-[1px] bg-fade-blue  ml-[9px] mr-[4px] mt-[18px] "></div>
-                <div className="pl-2.5 ">
+                <div className="max-w-[277px] w-full h-[1px] bg-fade-blue ml-[9px] mr-[4px] mt-[18px]"></div>
+                <div className="pl-2.5">
                   <div>
-                    <p className=" font-plus_jakarta font-bold text-base text-blue leading-[26px] mt-[16px]">
+                    <p className="font-plus_jakarta font-bold text-base text-blue leading-[26px] mt-[16px]">
                       Job Type
                     </p>
-                    <div className=" pr-1.5 flex items-center justify-between mt-[18px]">
-                      <div className=" flex items-center gap-[12px] group ">
+                    <div className="pr-1.5 flex items-center justify-between mt-[18px]">
+                      <div className="flex items-center gap-[12px] group">
                         <Checkbox />
-                        <p className="  group-hover:text-blue text-light-blue  font-plus_jakarta font-medium text-sm leading-[22px]">
+                        <p className=" group-hover:text-blue text-light-blue font-plus_jakarta font-medium text-sm leading-[22px]">
                           Full Time
                         </p>
                       </div>
-                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px] ">
-                        <p className=" font-plus_jakarta font-medium text-xs  leading-[18px] text-green">
+                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px]">
+                        <p className="font-plus_jakarta font-medium text-xs leading-[18px] text-green">
                           25
                         </p>
                       </div>
                     </div>
-                    <div className=" pr-1.5 flex items-center justify-between mt-[18px]">
-                      <div className=" flex items-center gap-[12px] group ">
+                    <div className="pr-1.5 flex items-center justify-between mt-[18px]">
+                      <div className="flex items-center gap-[12px] group">
                         <Checkbox />
-                        <p className="  group-hover:text-blue text-light-blue  font-plus_jakarta font-medium text-sm leading-[22px]">
+                        <p className=" group-hover:text-blue text-light-blue font-plus_jakarta font-medium text-sm leading-[22px]">
                           Part Time
                         </p>
                       </div>
-                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px] ">
-                        <p className=" font-plus_jakarta font-medium text-xs  leading-[18px] text-green">
+                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px]">
+                        <p className="font-plus_jakarta font-medium text-xs leading-[18px] text-green">
                           65
                         </p>
                       </div>
                     </div>
-                    <div className=" pr-1.5 flex items-center justify-between mt-[18px]">
-                      <div className=" flex items-center gap-[12px] group ">
+                    <div className="pr-1.5 flex items-center justify-between mt-[18px]">
+                      <div className="flex items-center gap-[12px] group">
                         <Checkbox />
-                        <p className="  group-hover:text-blue text-light-blue  font-plus_jakarta font-medium text-sm leading-[22px]">
+                        <p className=" group-hover:text-blue text-light-blue font-plus_jakarta font-medium text-sm leading-[22px]">
                           Remote Jobs
                         </p>
                       </div>
-                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px] ">
-                        <p className=" font-plus_jakarta font-medium text-xs  leading-[18px] text-green">
+                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px]">
+                        <p className="font-plus_jakarta font-medium text-xs leading-[18px] text-green">
                           78
                         </p>
                       </div>
                     </div>
-                    <div className=" pr-1.5 flex items-center justify-between mt-[18px]">
-                      <div className=" flex items-center gap-[12px] group ">
+                    <div className="pr-1.5 flex items-center justify-between mt-[18px]">
+                      <div className="flex items-center gap-[12px] group">
                         <Checkbox />
-                        <p className="  group-hover:text-blue text-light-blue  font-plus_jakarta font-medium text-sm leading-[22px]">
+                        <p className=" group-hover:text-blue text-light-blue font-plus_jakarta font-medium text-sm leading-[22px]">
                           Freelancer
                         </p>
                       </div>
-                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px] ">
-                        <p className=" font-plus_jakarta font-medium text-xs  leading-[18px] text-green">
+                      <div className="w-[24px] h-[24px] flex justify-center items-center bg-fade-blue rounded-[7px]">
+                        <p className="font-plus_jakarta font-medium text-xs leading-[18px] text-green">
                           97
                         </p>
                       </div>
@@ -574,16 +574,16 @@ const GridSection = () => {
             <div
               id="Studiekeuze"
               onClick={() => setNav(false)}
-              className=" max-w-[987px] pt-[36px]   min-h-screen "
+              className="max-w-[987px] pt-[36px] min-h-screen "
             >
-              <div className=" flex justify-between items-center">
-                <p className=" font-plus_jakarta font-medium text-sm leading-[22px] text-darkgray">
+              <div className="flex justify-between items-center">
+                <p className="font-plus_jakarta font-medium text-sm leading-[22px] text-darkgray">
                   41-60 van de 312 vacatures
                 </p>
-                <div className=" flex gap-[10px]">
+                <div className="flex gap-[10px]">
                   <div className="relative max-md:hidden">
                     <button
-                      className="flex w-full justify-between   py-[6px] px-[12px] items-center gap-[17px] border-[1px]  border-fade-blue rounded-[4px] text-sm font-plus_jakarta font-medium leading-[17px] text-darkgray"
+                      className="flex w-full justify-between py-[6px] px-[12px] items-center gap-[17px] border-[1px] border-fade-blue rounded-[4px] text-sm font-plus_jakarta font-medium leading-[17px] text-darkgray"
                       onClick={() => toggledown("experience")}
                     >
                       <span className="flex items-center gap-[7px]">
@@ -615,7 +615,7 @@ const GridSection = () => {
                   </div>
                   <div className="relative max-md:hidden">
                     <button
-                      className="flex w-full justify-between   py-[6px] px-[12px] items-center gap-[17px] border-[1px]  border-fade-blue rounded-[4px] text-sm font-plus_jakarta font-medium leading-[17px] text-darkgray"
+                      className="flex w-full justify-between py-[6px] px-[12px] items-center gap-[17px] border-[1px] border-fade-blue rounded-[4px] text-sm font-plus_jakarta font-medium leading-[17px] text-darkgray"
                       onClick={() => toggleDrop("experience")}
                     >
                       <span className="flex items-center gap-[7px]">
@@ -652,23 +652,23 @@ const GridSection = () => {
                     onClick={() => setActiveKey("nav1")}
                     className={`${
                       ActiveKey === "nav1"
-                        ? "bg-green  border-green "
+                        ? "bg-green border-green "
                         : "bg-transparent border-fade-blue2"
-                    }   w-[30px] h-[30px] border-[1px] flex flex-col gap-[4px] justify-center  items-center  rounded-[4px]`}
+                    }   w-[30px] h-[30px] border-[1px] flex flex-col gap-[4px] justify-center items-center rounded-[4px]`}
                   >
                     <div
                       className={`${
-                        ActiveKey === "nav1" ? "bg-white   " : "bg-dark_blue"
+                        ActiveKey === "nav1" ? "bg-white" : "bg-dark_blue"
                       } rounded-[2px] w-[14px] min-h-[2px] `}
                     ></div>
                     <div
                       className={`${
-                        ActiveKey === "nav1" ? "bg-white   " : "bg-dark_blue"
+                        ActiveKey === "nav1" ? "bg-white" : "bg-dark_blue"
                       } rounded-[2px] w-[14px] min-h-[2px] `}
                     ></div>
                     <div
                       className={`${
-                        ActiveKey === "nav1" ? "bg-white   " : "bg-dark_blue"
+                        ActiveKey === "nav1" ? "bg-white " : "bg-dark_blue"
                       } rounded-[2px] w-[14px] min-h-[2px] `}
                     ></div>
                   </div>
@@ -676,16 +676,16 @@ const GridSection = () => {
                     onClick={() => setActiveKey("nav2")}
                     className={`${
                       ActiveKey === "nav2"
-                        ? "bg-green  border-green "
+                        ? "bg-green border-green "
                         : "bg-transparent border-fade-blue2"
-                    }  w-[30px] h-[30px] border-[1px] flex flex-col gap-[4px] justify-center  items-center  rounded-[4px] `}
+                    }  w-[30px] h-[30px] border-[1px] flex flex-col gap-[4px] justify-center items-center rounded-[4px] `}
                   >
-                    <div className=" flex flex-col gap-[2px]">
-                      <div className=" flex gap-[2px]">
+                    <div className="flex flex-col gap-[2px]">
+                      <div className="flex gap-[2px]">
                         <svg
                           className={`${
                             ActiveKey === "nav2"
-                              ? "  fill-white "
+                              ? " fill-white "
                               : " fill-fade-blue2"
                           } `}
                           width="6"
@@ -699,7 +699,7 @@ const GridSection = () => {
                         <svg
                           className={`${
                             ActiveKey === "nav2"
-                              ? "  fill-white "
+                              ? " fill-white "
                               : " fill-fade-blue2"
                           } `}
                           width="6"
@@ -711,11 +711,11 @@ const GridSection = () => {
                           <rect width="6" height="6" rx="2" fill="" />
                         </svg>
                       </div>
-                      <div className=" flex gap-[2px]">
+                      <div className="flex gap-[2px]">
                         <svg
                           className={`${
                             ActiveKey === "nav2"
-                              ? "  fill-white "
+                              ? " fill-white "
                               : " fill-fade-blue2"
                           } `}
                           width="6"
@@ -729,7 +729,7 @@ const GridSection = () => {
                         <svg
                           className={`${
                             ActiveKey === "nav2"
-                              ? "  fill-white "
+                              ? " fill-white "
                               : " fill-fade-blue2"
                           } `}
                           width="6"
@@ -745,10 +745,10 @@ const GridSection = () => {
                   </div>
                 </div>
               </div>
-              <div className="  flex md:hidden  justify-between mt-[16px]">
-                <div className="relative  max-w-[120px] md:hidden">
+              <div className=" flex md:hidden justify-between mt-[16px]">
+                <div className="relative max-w-[120px] md:hidden">
                   <button
-                    className="flex w-full justify-between   py-[6px] px-[12px] items-center gap-[17px] border-[1px]  border-fade-blue rounded-[4px] text-sm font-plus_jakarta font-medium leading-[22px] text-darkgray"
+                    className="flex w-full justify-between py-[6px] px-[12px] items-center gap-[17px] border-[1px] border-fade-blue rounded-[4px] text-sm font-plus_jakarta font-medium leading-[22px] text-darkgray"
                     onClick={() => toggledown("experience")}
                   >
                     <span className="flex items-center gap-[7px]">
@@ -778,9 +778,9 @@ const GridSection = () => {
                     </ul>
                   )}
                 </div>
-                <div className="relative  max-w-[220px] md:hidden">
+                <div className="relative max-w-[220px] md:hidden">
                   <button
-                    className="flex w-full justify-between   py-[6px] px-[12px] items-center gap-[17px] border-[1px]  border-fade-blue rounded-[4px] text-sm font-plus_jakarta font-medium leading-[22px] text-darkgray"
+                    className="flex w-full justify-between py-[6px] px-[12px] items-center gap-[17px] border-[1px] border-fade-blue rounded-[4px] text-sm font-plus_jakarta font-medium leading-[22px] text-darkgray"
                     onClick={() => toggleDrop("experience")}
                   >
                     <span className="flex items-center gap-[7px]">
@@ -813,29 +813,28 @@ const GridSection = () => {
                   )}
                 </div>
               </div>
-              <div className=" bg-fade-blue max-w-[987px] w-full h-[1px] mt-[14px] "></div>
+              <div className="bg-fade-blue max-w-[987px] w-full h-[1px] mt-[14px]"></div>
 
               <div
                 className={`${
-                  ActiveKey === "nav2" ? "  block    " : "  hidden"
+                  ActiveKey === "nav2" ? "block" : "hidden"
                 }  `}
               >
-                <div className=" pt-[30px] gap-[30px]  justify-center  flex flex-wrap ">
+                <div className="pt-[30px] gap-[30px] justify-center flex flex-wrap">
                   {Gridcommoncard.map((data, index) => (
-                    <>
-                      <div className=" max-w-[309px] duration-300 ease-linear group hover:bg-white hover:border-[#3AAB67] py-[31px] px-[23px]  rounded-[16px] bg-light-gray min-h-[394px] border-fade-blue flex flex-col justify-between border-[2px] ">
+                      <div key={index} className="max-w-[309px] duration-300 ease-linear group hover:bg-white hover:border-[#3AAB67] py-[31px] px-[23px]  rounded-[16px] bg-light-gray min-h-[394px] border-fade-blue flex flex-col justify-between border-[2px]">
                         <div>
-                          {" "}
-                          <div className=" flex justify-between">
-                            <div className=" flex gap-[16px]">
+                          
+                          <div className="flex justify-between">
+                            <div className="flex gap-[16px]">
                               <div>
                                 <img src={data.logo} alt="logo" />
                               </div>
                               <div>
-                                <h5 className=" font-plus_jakarta text-lg leading-[26px] text-blue font-bold ">
+                                <h5 className="font-plus_jakarta text-lg leading-[26px] text-blue font-bold">
                                   {data.headingname}
                                 </h5>
-                                <p className=" flex items-center gap-[4px] mt-[6px]  font-plus_jakarta font-medium text-xs leading-[18px] text-gray ">
+                                <p className="flex items-center gap-[4px] mt-[6px]  font-plus_jakarta font-medium text-xs leading-[18px] text-gray">
                                   <span>
                                     <Cardloctionsvg />
                                   </span>
@@ -850,50 +849,49 @@ const GridSection = () => {
                                 alt="flash"
                               />
                               <img
-                                className=" group-hover:block hidden"
+                                className="group-hover:block hidden"
                                 src={data.flash2}
                                 alt="flash"
                               />
                             </div>
                           </div>
-                          <h4 className=" font-plus_jakarta mt-[21px]  font-bold text-base leading-[26px] text-blue">
+                          <h4 className="font-plus_jakarta mt-[21px]  font-bold text-base leading-[26px] text-blue">
                             {data.secondheading}
                           </h4>
-                          <div className=" flex gap-[24px] items-center mt-[7px] ">
-                            <p className=" flex gap-[7px]  items-center font-plus_jakarta font-medium text-xs text-gray ">
+                          <div className="flex gap-[24px] items-center mt-[7px]">
+                            <p className="flex gap-[7px]  items-center font-plus_jakarta font-medium text-xs text-gray">
                               <span>
                                 <Begsvg />
                               </span>
                               <span>{data.begtext}</span>
                             </p>
-                            <p className=" flex gap-[7px]  items-center font-plus_jakarta font-medium text-xs text-gray ">
+                            <p className="flex gap-[7px]  items-center font-plus_jakarta font-medium text-xs text-gray">
                               <span>
                                 <Timesvg />
                               </span>
                               <span>{data.timetext}</span>
                             </p>
                           </div>
-                          <p className=" font-plus_jakarta mt-[14px] font-medium text-sm  text-darkgray ">
+                          <p className="font-plus_jakarta mt-[14px] font-medium text-sm  text-darkgray">
                             {data.pheragraph}
                           </p>
                         </div>
                         <div>
-                          <button className="px-[10px]  py-[3px]    bg-light-gray  text-darkgray rounded-[5px] font-plus_jakarta font-medium text-xs leading-[18px] ">
+                          <button className="px-[10px]  py-[3px]    bg-light-gray  text-darkgray rounded-[5px] font-plus_jakarta font-medium text-xs leading-[18px]">
                             {data.btn1text}
-                          </button>{" "}
+                          </button>
                           <br />
-                          <button className="px-[12px]  duration-300 ease-linear mt-[21px] py-[7px]  bg-light-gray group-hover:bg-green group-hover:text-white     text-green rounded-[5px] font-plus_jakarta font-medium text-xs leading-[18px] ">
+                          <button className="px-[12px]  duration-300 ease-linear mt-[21px] py-[7px]  bg-light-gray group-hover:bg-green group-hover:text-white     text-green rounded-[5px] font-plus_jakarta font-medium text-xs leading-[18px]">
                             Solliciteren
                           </button>
                         </div>
                       </div>
-                    </>
                   ))}
                 </div>
               </div>
               <div
                 className={`${
-                  ActiveKey === "nav1" ? "  block    " : "  hidden"
+                  ActiveKey === "nav1" ? "block" : "hidden"
                 }  `}
               >
                 {cardsData.map((data, index) => (
@@ -932,7 +930,7 @@ const GridSection = () => {
                         <Icons icon="SystemIcon" />
                       </div>
                     </div>
-                    <h3 className="text-2xl font-plus_jakarta font-bold leading-[30.2px] text-blue pt-[28px] ">
+                    <h3 className="text-2xl font-plus_jakarta font-bold leading-[30.2px] text-blue pt-[28px]">
                       {data.jobTitle}
                     </h3>
                     <div className="flex gap-[19px] items-center">
@@ -955,7 +953,7 @@ const GridSection = () => {
                     <div className="flex items-end justify-between pt-[17px]">
                       <p className="text-base leading-[26px] font-bold text-green font-plus_jakarta">
                         {data.salary}
-                        <span className=" text-gray text-xs font-medium">
+                        <span className="text-gray text-xs font-medium">
                           {data.hour}
                         </span>
                       </p>
@@ -967,48 +965,48 @@ const GridSection = () => {
                 ))}
               </div>
 
-              <div className=" flex gap-[9px] items-center mt-[30px]">
-                <div className=" numberchangebox duration-300 ease-linear w-[48px] cursor-pointer h-[48px] flex justify-center items-center bg-fade-blue  rounded-[50%] ">
+              <div className="flex gap-[9px] items-center mt-[30px]">
+                <div className="numberchangebox duration-300 ease-linear w-[48px] cursor-pointer h-[48px] flex justify-center items-center bg-fade-blue  rounded-[50%]">
                   <Numberarrow />
                 </div>
-                <div className=" flex gap-[2px]">
-                  <div className=" w-[28px] cursor-pointer h-[28px] rounded-[50%] duration-300 bg-transparent group hover:bg-fade-blue">
-                    <p className=" font-plus_jakarta group-hover:text-blue text-gray font-medium text-lg leading-[26px] flex justify-center items-center ">
+                <div className="flex gap-[2px]">
+                  <div className="w-[28px] cursor-pointer h-[28px] rounded-[50%] duration-300 bg-transparent group hover:bg-fade-blue">
+                    <p className="font-plus_jakarta group-hover:text-blue text-gray font-medium text-lg leading-[26px] flex justify-center items-center">
                       1
                     </p>
                   </div>
-                  <div className=" w-[28px] cursor-pointer h-[28px] rounded-[50%] duration-300 bg-transparent group hover:bg-fade-blue">
-                    <p className=" font-plus_jakarta group-hover:text-blue text-gray font-medium text-lg leading-[26px] flex justify-center items-center ">
+                  <div className="w-[28px] cursor-pointer h-[28px] rounded-[50%] duration-300 bg-transparent group hover:bg-fade-blue">
+                    <p className="font-plus_jakarta group-hover:text-blue text-gray font-medium text-lg leading-[26px] flex justify-center items-center">
                       2
                     </p>
                   </div>
-                  <div className=" w-[28px] cursor-pointer h-[28px] rounded-[50%] duration-300 bg-transparent group hover:bg-fade-blue">
-                    <p className=" font-plus_jakarta group-hover:text-blue text-gray font-medium text-lg leading-[26px] flex justify-center items-center ">
+                  <div className="w-[28px] cursor-pointer h-[28px] rounded-[50%] duration-300 bg-transparent group hover:bg-fade-blue">
+                    <p className="font-plus_jakarta group-hover:text-blue text-gray font-medium text-lg leading-[26px] flex justify-center items-center">
                       3
                     </p>
                   </div>
-                  <div className=" w-[28px] cursor-pointer h-[28px] rounded-[50%] duration-300 bg-transparent group hover:bg-fade-blue">
-                    <p className=" font-plus_jakarta group-hover:text-blue text-gray font-medium text-lg leading-[26px] flex justify-center items-center ">
+                  <div className="w-[28px] cursor-pointer h-[28px] rounded-[50%] duration-300 bg-transparent group hover:bg-fade-blue">
+                    <p className="font-plus_jakarta group-hover:text-blue text-gray font-medium text-lg leading-[26px] flex justify-center items-center">
                       4
                     </p>
                   </div>
-                  <div className=" w-[28px] cursor-pointer h-[28px] rounded-[50%] duration-300 bg-transparent group hover:bg-fade-blue">
-                    <p className=" font-plus_jakarta group-hover:text-blue text-gray font-medium text-lg leading-[26px] flex justify-center items-center ">
+                  <div className="w-[28px] cursor-pointer h-[28px] rounded-[50%] duration-300 bg-transparent group hover:bg-fade-blue">
+                    <p className="font-plus_jakarta group-hover:text-blue text-gray font-medium text-lg leading-[26px] flex justify-center items-center">
                       5
                     </p>
                   </div>
-                  <div className=" w-[28px] cursor-pointer h-[28px] rounded-[50%] duration-300 bg-transparent group hover:bg-fade-blue">
-                    <p className=" font-plus_jakarta group-hover:text-blue text-gray font-medium text-lg leading-[26px] flex justify-center items-center ">
+                  <div className="w-[28px] cursor-pointer h-[28px] rounded-[50%] duration-300 bg-transparent group hover:bg-fade-blue">
+                    <p className="font-plus_jakarta group-hover:text-blue text-gray font-medium text-lg leading-[26px] flex justify-center items-center">
                       6
                     </p>
                   </div>
-                  <div className=" w-[28px] cursor-pointer h-[28px] rounded-[50%] duration-300 bg-transparent group hover:bg-fade-blue">
-                    <p className=" font-plus_jakarta group-hover:text-blue text-gray font-medium text-lg leading-[26px] flex justify-center items-center ">
+                  <div className="w-[28px] cursor-pointer h-[28px] rounded-[50%] duration-300 bg-transparent group hover:bg-fade-blue">
+                    <p className="font-plus_jakarta group-hover:text-blue text-gray font-medium text-lg leading-[26px] flex justify-center items-center">
                       7
                     </p>
                   </div>
                 </div>
-                <div className=" numberchangebox duration-300 ease-linear w-[48px] cursor-pointer h-[48px] flex justify-center items-center bg-fade-blue  rounded-[50%] ">
+                <div className="numberchangebox duration-300 ease-linear w-[48px] cursor-pointer h-[48px] flex justify-center items-center bg-fade-blue  rounded-[50%]">
                   <Numberarrowright />
                 </div>
               </div>
@@ -1020,4 +1018,4 @@ const GridSection = () => {
   );
 };
 
-export default GridSection;
+export default Grid;

@@ -2,13 +2,12 @@ import React from "react";
 import { useState } from "react";
 import { Checksvg } from "./Icons";
 
-const Commoncheckbox = () => {
+const CommonCheckBox = () => {
   const [check, setCheck] = useState(false);
   function handleclick() {
     setCheck(!check);
   }
   return (
-    <>
       <div
         className={`${
           check ? " bg-green border-transparent" : " bg-transparent "
@@ -19,8 +18,7 @@ const Commoncheckbox = () => {
           <Checksvg />
         </span>
       </div>
-    </>
   );
 };
 
-export default Commoncheckbox;
+export default CommonCheckBox;

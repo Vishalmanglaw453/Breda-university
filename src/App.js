@@ -1,18 +1,18 @@
 import './App.css';
-import Backtotop from './common/Backtotop';
-import FooterSection from './components/FooterSection';
-import GridSection from './components/GridSection';
+import Backtotop from './common/BackToTop';
+import Footer from './components/Footer';
+import Grid from './components/Grid';
 import Header from './components/Header';
-import HeroSection from './components/HeroSection';
+import Hero from './components/Hero';
 
 function App() {
   return (
     <div className="App overflow-hidden">
       <Header/>
-      <HeroSection/>
-      <GridSection/>
+      <Hero/>
+      <Grid/>
       <Backtotop/>
-      <FooterSection/>
+      <Footer/>
     </div>
   );
 }

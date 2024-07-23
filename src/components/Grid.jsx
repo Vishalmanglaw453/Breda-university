@@ -63,7 +63,6 @@ const Grid = () => {
 
   return (
    
-      <section>
         <div className="container">
           <button
             onClick={() => setNav(!nav)}
@@ -1013,7 +1012,6 @@ const Grid = () => {
             </div>
           </div>
         </div>
-      </section>
    
   );
 };

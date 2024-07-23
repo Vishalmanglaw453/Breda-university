@@ -19,7 +19,7 @@ const Header = () => {
   };
 
   return (
-    <section className="shadow-nav_shadow">
+    <div className="shadow-nav_shadow">
       <div className="container mx-auto">
         <nav className="flex items-center justify-between pt-[23px] pb-[18px]">
           <a href="#">
@@ -106,7 +106,7 @@ const Header = () => {
           </div>
         </nav>
       </div>
-    </section>
+    </div>
   );
 };
 

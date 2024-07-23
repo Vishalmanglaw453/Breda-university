@@ -24,7 +24,6 @@ const Hero = () => {
   };
 
   return (
-    <section>
       <div id="home" className="container mx-auto pt-[29px]">
         <div className="bg-beschikbaar relative z-0 rounded-[16px] w-full px-4 min-h-[193px] pb-[33px] lg:pb-[67px]">
           <img
@@ -131,7 +130,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
   );
 };
 

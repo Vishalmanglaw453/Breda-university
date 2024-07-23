@@ -1,9 +1,10 @@
 import './App.css';
-import Backtotop from './common/Backtotop';
+import BackToTop from './common/BackToTop';
 import FooterSection from './components/FooterSection';
 import GridSection from './components/GridSection';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
+
 
 function App() {
   return (
@@ -11,8 +12,8 @@ function App() {
       <Header/>
       <HeroSection/>
       <GridSection/>
-      <Backtotop/>
       <FooterSection/>
+      <BackToTop/>
     </div>
   );
 }

@@ -1,10 +1,10 @@
 import React from "react";
 import { useState } from "react";
-import { Checksvg } from "./Icons";
+import { CheckIcons } from "./Icons";
 
-const Commoncheckbox = () => {
+const CommonCheckBox = () => {
   const [check, setCheck] = useState(false);
-  function handleclick() {
+  function HANDLE_CLICK() {
     setCheck(!check);
   }
   return (
@@ -13,14 +13,14 @@ const Commoncheckbox = () => {
         className={`${
           check ? " bg-green border-transparent" : " bg-transparent "
         } w-[24px] h-[24px] cursor-pointer flex justify-center items-center border-[1.5px] border-[#E0E6F6]  rounded-[7px] `}
-        onClick={handleclick}
+        onClick={HANDLE_CLICK}
       >
         <span className={`${check ? "block" : " hidden"}`}>
-          <Checksvg />
+          <CheckIcons />
         </span>
       </div>
     </>
   );
 };
 
-export default Commoncheckbox;
+export default CommonCheckBox;

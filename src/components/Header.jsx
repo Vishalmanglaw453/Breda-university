@@ -32,13 +32,13 @@ const Header = () => {
           <ul
             className={`${
               isOpen ? "right-0" : "right-[-100%]"
-            } flex items-center gap-6 xl:gap-12 max-lg:flex-col max-lg:fixed duration-300 ease-linear max-lg:w-full max-lg:h-screen max-lg:justify-center max-lg:items-center max-lg:top-0 max-lg:bg-beschikbaar z-50`}
+            } flex items-center gap-6 xl:gap-12 max-lg:flex-col max-lg:fixed duration-300 ease-linear max-lg:w-full max-lg:h-screen max-lg:justify-center max-lg:items-center max-lg:top-0 max-lg:bg-Selago z-50`}
           >
             <li>
               <a
                 href="#home"
                 onClick={HANDLE_NAVLINK_CLICK}
-                className="text-sm max-lg:text-lg leading-[17.6px] font-plus_jakarta text-blue font-medium relative after:absolute after:w-0 after:left-0 after:bottom-[-10px] after:h-[2px] after:bg-green hover:after:w-full after:duration-300 after:ease-linear hover:text-green duration-300"
+                className="text-sm max-lg:text-lg leading-[17.6px] font-plus_jakarta text-Regal_Blue font-medium relative after:absolute after:w-0 after:left-0 after:bottom-[-10px] after:h-[2px] after:bg-green hover:after:w-full after:duration-300 after:ease-linear hover:text-green duration-300"
               >
                 Home
               </a>
@@ -47,7 +47,7 @@ const Header = () => {
               <a
                 href="#Studiekeuze"
                 onClick={HANDLE_NAVLINK_CLICK}
-                className="text-sm max-lg:text-lg leading-[17.6px] font-plus_jakarta text-blue font-medium relative after:absolute after:w-0 after:left-0 after:bottom-[-10px] after:h-[2px] after:bg-green hover:after:w-full after:duration-300 after:ease-linear hover:text-green duration-300"
+                className="text-sm max-lg:text-lg leading-[17.6px] font-plus_jakarta text-Regal_Blue font-medium relative after:absolute after:w-0 after:left-0 after:bottom-[-10px] after:h-[2px] after:bg-green hover:after:w-full after:duration-300 after:ease-linear hover:text-green duration-300"
               >
                 Studiekeuze
               </a>
@@ -56,7 +56,7 @@ const Header = () => {
               <a
                 href="#"
                 onClick={HANDLE_NAVLINK_CLICK}
-                className="text-sm max-lg:text-lg leading-[17.6px] font-plus_jakarta text-blue font-medium relative after:absolute after:w-0 after:left-0 after:bottom-[-10px] after:h-[2px] after:bg-green hover:after:w-full after:duration-300 after:ease-linear hover:text-green duration-300"
+                className="text-sm max-lg:text-lg leading-[17.6px] font-plus_jakarta text-Regal_Blue font-medium relative after:absolute after:w-0 after:left-0 after:bottom-[-10px] after:h-[2px] after:bg-green hover:after:w-full after:duration-300 after:ease-linear hover:text-green duration-300"
               >
                 Samenwerken
               </a>
@@ -65,7 +65,7 @@ const Header = () => {
               <a
                 href="#"
                 onClick={HANDLE_NAVLINK_CLICK}
-                className="text-sm max-lg:text-lg leading-[17.6px] font-plus_jakarta text-blue font-medium relative after:absolute after:w-0 after:left-0 after:bottom-[-10px] after:h-[2px] after:bg-green hover:after:w-full after:duration-300 after:ease-linear hover:text-green duration-300"
+                className="text-sm max-lg:text-lg leading-[17.6px] font-plus_jakarta text-Regal_Blue font-medium relative after:absolute after:w-0 after:left-0 after:bottom-[-10px] after:h-[2px] after:bg-green hover:after:w-full after:duration-300 after:ease-linear hover:text-green duration-300"
               >
                 Onderzoek
               </a>
@@ -74,7 +74,7 @@ const Header = () => {
               <a
                 href="#"
                 onClick={HANDLE_NAVLINK_CLICK}
-                className="text-sm max-lg:text-lg leading-[17.6px] font-plus_jakarta text-blue font-medium relative after:absolute after:w-0 after:left-0 after:bottom-[-10px] after:h-[2px] after:bg-green hover:after:w-full after:duration-300 after:ease-linear hover:text-green duration-300"
+                className="text-sm max-lg:text-lg leading-[17.6px] font-plus_jakarta text-Regal_Blue font-medium relative after:absolute after:w-0 after:left-0 after:bottom-[-10px] after:h-[2px] after:bg-green hover:after:w-full after:duration-300 after:ease-linear hover:text-green duration-300"
               >
                 Meer BUas
               </a>
@@ -86,10 +86,10 @@ const Header = () => {
               <img src={Oval} alt="Oval" className=" max-w-[34.5px] w-full" />
               <div className=" hidden sm:block">
                 <div className=" flex flex-col ">
-                  <p className=" text-sm opacity-70 font-bold font-plus_jakarta text-blue leading-[17.4px]">
+                  <p className=" text-sm opacity-70 font-bold font-plus_jakarta text-Regal_Blue leading-[17.4px]">
                     Willem Beekhuis
                   </p>
-                  <p className=" text-light-blue text-xs font-medium font-plus_jakarta leading-[17.7px]">
+                  <p className=" text-Lynch text-xs font-medium font-plus_jakarta leading-[17.7px]">
                     Student
                   </p>
                 </div>
@@ -99,9 +99,9 @@ const Header = () => {
                 onClick={HANDLE_MENU_TOGGLE}
                 className={`${isOpen && "menu"} z-50 lg:hidden`}
               >
-                <span className="h-[5px] rounded-[6px] block bg-blue w-[30px] duration-300"></span>
-                <span className="h-[5px] rounded-[6px] block  bg-blue w-[30px] my-1.5"></span>
-                <span className="h-[5px] rounded-[6px] block  bg-blue w-[30px]  duration-300"></span>
+                <span className="h-[5px] rounded-[6px] block bg-Regal_Blue w-[30px] duration-300"></span>
+                <span className="h-[5px] rounded-[6px] block  bg-Regal_Blue w-[30px] my-1.5"></span>
+                <span className="h-[5px] rounded-[6px] block  bg-Regal_Blue w-[30px]  duration-300"></span>
               </div>
           </div>
         </nav>

@@ -1,4 +1,4 @@
-import Xxl from "../assets/images/svg/xxl_logo.svg";
+import xxl from "../assets/images/svg/xxl_logo.svg";
 import logo2 from "../assets/images/svg/card_logo_2.svg";
 import logo3 from "../assets/images/svg/card_logo_3.svg";
 import logo4 from "../assets/images/svg/card_logo_4.svg";
@@ -11,13 +11,13 @@ import logo11 from "../assets/images/svg/card_logo_11.svg";
 import logo12 from "../assets/images/svg/card_logo_12.svg";
 import logo13 from "../assets/images/svg/card_logo_13.svg";
 import logo15 from "../assets/images/svg/card_logo_15.svg";
-import flashvactor from "../assets/images/svg/flash.svg";
-import flashvactor2 from "../assets/images/svg/flash_oange.svg";
+import flash_vector from "../assets/images/svg/flash.svg";
+import flash_vector2 from "../assets/images/svg/flash_orange.svg";
 
 // first page
-export const Gridcommoncard = [
+export const GridCommonCard = [
   {
-    logo: Xxl,
+    logo: xxl,
     headingname: "XXL Events",
     loctionname: "Breda, NL",
     secondheading: "(Junior) Marketeer XXL Events",
@@ -25,8 +25,8 @@ export const Gridcommoncard = [
     timetext: "1 dag geleden",
     pheragraph:
       "Onze concepten naar het volgende niveau tillen - Jij wordt onze marketing gado <3!",
-    flash: flashvactor,
-    flash2: flashvactor2,
+    flash: flash_vector,
+    flash2: flash_vector2,
     btn1text: "Leisure & Events",
   },
   {
@@ -38,8 +38,8 @@ export const Gridcommoncard = [
     timetext: "4 dagen geleden",
     pheragraph:
       "Ontdek de wereld van gastvrijheid en toerisme tijdens jouw dynamische stage bij ons!",
-    flash: flashvactor,
-    flash2: flashvactor2,
+    flash: flash_vector,
+    flash2: flash_vector2,
     btn1text: "Tourism",
   },
   {
@@ -51,8 +51,8 @@ export const Gridcommoncard = [
     timetext: "twee weken geleden",
     pheragraph:
       "Proef de smaak van gastvrijheid en culinaire creativiteit tijdens jouw stage bij Green Mountain Falls Lodge!",
-    flash: flashvactor,
-    flash2: flashvactor2,
+    flash: flash_vector,
+    flash2: flash_vector2,
     btn1text: "Tourism",
   },
   {
@@ -64,8 +64,8 @@ export const Gridcommoncard = [
     timetext: "2 maanden geleden",
     pheragraph:
       "Zoek jij een uitdagende facilitaire stage waarbij je zowel op operationeel als tactisch niveau mee kunt werken? Dan is deze stage echt iets voor jou!",
-    flash: flashvactor,
-    flash2: flashvactor2,
+    flash: flash_vector,
+    flash2: flash_vector2,
     btn1text: "Facility",
   },
   {
@@ -77,8 +77,8 @@ export const Gridcommoncard = [
     timetext: "3 maanden geleden",
     pheragraph:
       "Een stage bij iMamotion biedt een unieke kans om praktijkervaring op te doen in innovatieve technologieën.!",
-    flash: flashvactor,
-    flash2: flashvactor2,
+    flash: flash_vector,
+    flash2: flash_vector2,
     btn1text: "Tourism",
   },
   {
@@ -90,8 +90,8 @@ export const Gridcommoncard = [
     timetext: "3 maanden geleden",
     pheragraph:
       "Een stage bij Best Life Experience in Granada biedt een onvergetelijke kans om te leren en te groeien in een prachtige, cultureel rijke omgeving.",
-    flash: flashvactor,
-    flash2: flashvactor2,
+    flash: flash_vector,
+    flash2: flash_vector2,
     btn1text: "Leisure & Events",
   },
   {
@@ -103,8 +103,8 @@ export const Gridcommoncard = [
     timetext: "3 mins ago",
     pheragraph:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.",
-    flash: flashvactor,
-    flash2: flashvactor2,
+    flash: flash_vector,
+    flash2: flash_vector2,
     btn1text: "Leisure & Events",
   },
   {
@@ -116,8 +116,8 @@ export const Gridcommoncard = [
     timetext: "3 mins ago",
     pheragraph:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.",
-    flash: flashvactor,
-    flash2: flashvactor2,
+    flash: flash_vector,
+    flash2: flash_vector2,
     btn1text: "Leisure & Events",
   },
   {
@@ -129,8 +129,8 @@ export const Gridcommoncard = [
     timetext: "3 mins ago",
     pheragraph:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.",
-    flash: flashvactor,
-    flash2: flashvactor2,
+    flash: flash_vector,
+    flash2: flash_vector2,
     btn1text: "Leisure & Events",
   },
   {
@@ -142,8 +142,8 @@ export const Gridcommoncard = [
     timetext: "3 mins ago",
     pheragraph:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.",
-    flash: flashvactor,
-    flash2: flashvactor2,
+    flash: flash_vector,
+    flash2: flash_vector2,
     btn1text: "Leisure & Events",
   },
 
@@ -156,8 +156,8 @@ export const Gridcommoncard = [
     timetext: "3 mins ago",
     pheragraph:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.",
-    flash: flashvactor,
-    flash2: flashvactor2,
+    flash: flash_vector,
+    flash2: flash_vector2,
     btn1text: "Leisure & Events",
   },
   {
@@ -169,8 +169,8 @@ export const Gridcommoncard = [
     timetext: "3 mins ago",
     pheragraph:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.",
-    flash: flashvactor,
-    flash2: flashvactor2,
+    flash: flash_vector,
+    flash2: flash_vector2,
     btn1text: "Leisure & Events",
   },
   {
@@ -182,8 +182,8 @@ export const Gridcommoncard = [
     timetext: "3 mins ago",
     pheragraph:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.",
-    flash: flashvactor,
-    flash2: flashvactor2,
+    flash: flash_vector,
+    flash2: flash_vector2,
     btn1text: "Leisure & Events",
   },
   {
@@ -195,8 +195,8 @@ export const Gridcommoncard = [
     timetext: "3 mins ago",
     pheragraph:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.",
-    flash: flashvactor,
-    flash2: flashvactor2,
+    flash: flash_vector,
+    flash2: flash_vector2,
     btn1text: "Leisure & Events",
   },
   {
@@ -208,13 +208,13 @@ export const Gridcommoncard = [
     timetext: "3 mins ago",
     pheragraph:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.",
-    flash: flashvactor,
-    flash2: flashvactor2,
+    flash: flash_vector,
+    flash2: flash_vector2,
     btn1text: "Leisure & Events",
   },
 ];
 // second page
-export const cardsData = [
+export const CardData = [
   {
     employerLogo: logo7,
     employerName: "Dailymotion",

@@ -1,14 +1,7 @@
-* {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-  text-decoration: none;
-  box-sizing: border-box;
-}
 
-.numberchangebox:hover{
+.Slide_button:hover{
   background-color: #3E8600;
 }
-.numberchangebox:hover svg path{
+.Slide_button:hover svg path{
   fill: white !important;
 }

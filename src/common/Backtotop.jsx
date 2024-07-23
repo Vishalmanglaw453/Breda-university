@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { Backtotoparrow } from "./Icons";
+import { BackToTopArrow } from "./Icons";
 
-const Backtotop = () => {
+const BackToTop = () => {
   const [showButton, setShowButton] = useState(false);
 
   useEffect(() => {
-    const HANDLEScroll = () => {
+    const HANDLE_SCROLL = () => {
       if (window.scrollY > 100) {
         setShowButton(true);
       } else {
@@ -13,9 +13,9 @@ const Backtotop = () => {
       }
     };
 
-    window.addEventListener("scroll", HANDLEScroll);
+    window.addEventListener("scroll", HANDLE_SCROLL);
     return () => {
-      window.removeEventListener("scroll", HANDLEScroll);
+      window.removeEventListener("scroll", HANDLE_SCROLL);
     };
   }, []);
   const SCROLL_TO_TOP = () => {
@@ -28,14 +28,14 @@ const Backtotop = () => {
     <>
       {showButton && (
         <button
-          className="fixed size-12 cursor-pointer hover:shadow-btn_shadow  ease-linear flex  justify-center items-center bottom-10 right-6  bg-green text-white p-3 rounded-full shadow-md hover:bg-blue-700 transition duration-300"
+          className="fixed size-12 cursor-pointer hover:shadow-btn_shadow  ease-linear flex  justify-center items-center bottom-10 right-6  bg-green text-white p-3 rounded-full shadow-md hover:bg-Regal_Blue-700 transition duration-300"
           onClick={SCROLL_TO_TOP}
         >
-          <Backtotoparrow />
+          <BackToTopArrow />
         </button>
       )}
     </>
   );
-};
+}
 
-export default Backtotop;
+export default BackToTop;

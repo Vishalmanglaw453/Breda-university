@@ -4,17 +4,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        blue: "#00406B",
-        beschikbaar: "#F2F6FD",
-        "light-blue": "#66789C",
-        "fade-blue": "#E0E6F6",
-        dark_blue: "#B4C0E0",
+        Regal_Blue: "#00406B",
+        Selago: "#F2F6FD",
+        "Lynch": "#66789C",   
+        "Link_Water": "#E0E6F6",
+        Periwinkle_Gray: "#B4C0E0",
         green: "#3E8600",
         orange: "#F58A3C",
-        gray: "#6B6B6B",
-        "light-gray": "#F8FAFF",
-        "light_gray": "#EFF3FC",
-        darkgray: "#4F5E64",
+        Dove_Gray: "#6B6B6B",
+        "Zircon": "#F8FAFF",
+        "lite_Selago": "#EFF3FC",
+        River_Bed: "#4F5E64",
       },
       fontFamily: {
         plus_jakarta: ["Plus Jakarta Sans", "sans-serif"],

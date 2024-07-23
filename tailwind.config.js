@@ -21,7 +21,8 @@ module.exports = {
       },
 
       boxShadow: {
-        NavShadow: " 0px 0px 19px 0px #E2E2EA99",
+        nav_shadow: " 0px 0px 19px 0px #E2E2EA99",
+        "btn_shadow": "0px 0px 12px 0px rgba(62,134,0,1)"
       },
       container: {
         center: true,

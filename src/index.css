@@ -3,15 +3,17 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.menu .bar:nth-child(1){
+html {
+  scroll-behavior: smooth !important;
+}
+.menu span:nth-child(1){
     transform: translateY(3.5px);
     rotate: 45deg;
   }
-  .menu .bar:nth-child(2){
+  .menu span:nth-child(2){
     display: none;
   }
-  .menu .bar:nth-child(3){
+  .menu span:nth-child(3){
     transform: translateY(-3.5px);
     rotate: -45deg;
   }

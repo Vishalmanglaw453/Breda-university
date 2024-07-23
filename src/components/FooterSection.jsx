@@ -6,18 +6,18 @@ import playstore from "../assets/images/svg/playstore.svg";
 
 const FooterSection = () => {
   return (
-      <section className=" pt-[120px] max-lg:pt-[50px]">
+      <footer className=" pt-[120px] max-lg:pt-[50px]">
         <div className=" container mx-auto pb-[67px] max-lg:pb-[40px]">
           <div className="flex -mx-3 flex-row flex-wrap pb-8 md:pb-[74px]">
            
               <div className=" w-3/12 pt-[19px] max-lg:w-full px-3 ">
-                <div className="flex items-center gap-1">
+                <a href="#" className="flex items-center gap-1">
                   <img
                     className=" cursor-pointer"
                     src={footerlogo}
                     alt="logo"
                   />
-                </div>
+                </a>
                 <p className=" max-w-[246px] text-xs font-plus_jakarta font-medium text-light-blue leading-[18px] py-[21.5px]">
                   JobBox is the heart of the design community and the best
                   resource to discover and connect with designers and jobs
@@ -39,7 +39,7 @@ const FooterSection = () => {
                     <Icons icon="Twitter" />
                   </a>
                   <a
-                    href="https://in.indeed.com/"
+                    href="https://www.linkedin.com/?trk=guest_homepage-basic_nav-header-logo"
                     target="blank"
                     className=" bg-green hover:scale-[1.1] duration-300 ease-linear group rounded-full h-[30px] w-[30px] flex items-center justify-center"
                   >
@@ -331,7 +331,7 @@ const FooterSection = () => {
             </div>
           </div>
         </div>
-      </section>
+      </footer>
   );
 };
 

@@ -32,7 +32,7 @@ const Header = () => {
           <ul
             className={`${
               isOpen ? "right-0" : "right-[-100%]"
-            } flex items-center gap-6 xl:gap-12 max-lg:flex-col max-lg:fixed duration-300 ease-linear max-lg:w-full max-lg:h-screen max-lg:justify-center max-lg:items-center max-lg:top-0 max-lg:bg-beschikbaar z-50`}
+            } flex items-center gap-6 xl:gap-12 max-lg:flex-col max-lg:fixed duration-300 ease-linear max-lg:w-full max-lg:h-screen max-lg:justify-center max-lg:items-center max-lg:top-0 max-lg:bg-Selago z-50`}
           >
             <li>
               <a
